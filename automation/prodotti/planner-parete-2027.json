@@ -21,9 +21,8 @@
  },
  "foto": {
   "cosa": "a colourful printable 2027 wall year planner sheet (12 month rows x 31 day columns, coloured month tabs, weekend cells tinted)",
-  "it": "",
-  "en": "",
-  "render": "parete",
+  "it": "Translate every text into Italian exactly like this: the title \"2027 YEAR PLANNER\" -> \"PLANNER ANNUALE 2027\"; month labels in the coloured left column JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC -> GEN, FEB, MAR, APR, MAG, GIU, LUG, AGO, SET, OTT, NOV, DIC; weekday initials in every cell (M T W T F S S) -> Italian initials (L M M G V S D), keeping each day number on the SAME weekday as in the original (e.g. 1 F -> 1 V, 2 S -> 2 S, 3 S -> 3 D, 4 M -> 4 L, 6 W -> 6 M, 7 T -> 7 G).",
+  "en": "Keep all text in English exactly as in the original.",
   "testi": {
    "it": {
     "titolo": "PLANNER ANNUALE 2027",
