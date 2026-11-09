@@ -21,6 +21,8 @@ def main(pid, push=True):
     it, en, cat = s['it'], s['en'], s['categoria']
     cp = os.path.join(R, '_data', 'catalogo.json'); raw = open(cp, encoding='utf-8').read(); c = json.loads(raw)
     # categoria nuova -> catalogo (il menu la mostra da solo) + pagine IT/EN
+    if not os.path.exists(os.path.join(R, '_negozio', 'categoria-%s.md' % cat['id'])):  # pagina IT mancante -> la ricrea sempre
+        w('_negozio/categoria-%s.md' % cat['id'], fm(layout='negozio-categoria', title=cat['it'], cid=cat['id'], permalink='/negozio/categoria/%s/' % cat['id'], ref='shop-cat-' + cat['id']))
     if not [x for x in c['categorie'] if x['id'] == cat['id']]:
         c['categorie'].append(dict(nome=cat['it'], id=cat['id'], icona=cat.get('icona', '\U0001F4E6'), tr=dict(en=dict(nome=cat['en']))))
         w('_negozio/categoria-%s.md' % cat['id'], fm(layout='negozio-categoria', title=cat['it'], cid=cat['id'], permalink='/negozio/categoria/%s/' % cat['id'], ref='shop-cat-' + cat['id']))

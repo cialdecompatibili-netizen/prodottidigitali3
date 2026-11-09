@@ -72,26 +72,6 @@
           "immagine": "assets/images/prodotti/calendario-mensile-2027-stampabile-en.webp?v=1"
         }
       }
-    },
-    {
-      "tipo": "digitale",
-      "id": "planner-parete-2027",
-      "nome": "Planner annuale da parete 2027 stampabile",
-      "categoria": "planner",
-      "prezzo_centesimi": 900,
-      "descrizione": "Planner annuale 2027 a colori da parete in PDF: 12 mesi su un solo foglio, giorno e iniziale in ogni cella, weekend evidenziati.",
-      "descrizione_completa": "Planner annuale 2027 da parete in PDF stampabile: tutto l'anno su un solo foglio, con mesi colorati, giorno e iniziale della settimana in ogni cella e weekend evidenziati.\nFormati inclusi: A1, A2, A3.\nStampa da casa o in tipografia e appendilo al muro.\nProdotto digitale: nessuna spedizione.",
-      "immagine": "assets/images/prodotti/planner-parete-2027.webp?v=3",
-      "icona": "📅",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Printable 2027 Wall Year Planner",
-          "descrizione": "Colourful 2027 wall year planner in PDF: 12 months on one sheet, day and weekday initial in every cell, weekends highlighted.",
-          "descrizione_completa": "Printable 2027 wall year planner in PDF: the whole year on a single sheet, with colour-coded months, day number and weekday initial in every cell and highlighted weekends.\nSizes included: A1, A2, A3.\nPrint at home or at a print shop and hang it on the wall.\nDigital product: nothing is shipped.",
-          "immagine": "assets/images/prodotti/planner-parete-2027-en.webp?v=3"
-        }
-      }
     }
   ]
 }
