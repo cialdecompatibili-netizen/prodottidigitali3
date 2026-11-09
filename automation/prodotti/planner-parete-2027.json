@@ -1,0 +1,66 @@
+{
+ "categoria": {
+  "id": "planner",
+  "it": "Planner e agende stampabili",
+  "en": "Printable planners and agendas",
+  "slug_en": "planners",
+  "icona": "📅"
+ },
+ "slug_en": "printable-wall-year-planner-2027",
+ "prezzo_centesimi": 900,
+ "icona": "📅",
+ "it": {
+  "nome": "Planner annuale da parete 2027 stampabile",
+  "descrizione": "Planner annuale 2027 a colori da parete in PDF: 12 mesi su un solo foglio, giorno e iniziale in ogni cella, weekend evidenziati.",
+  "descrizione_completa": "Planner annuale 2027 da parete in PDF stampabile: tutto l'anno su un solo foglio, con mesi colorati, giorno e iniziale della settimana in ogni cella e weekend evidenziati.\nFormati inclusi: A1, A2, A3.\nStampa da casa o in tipografia e appendilo al muro.\nProdotto digitale: nessuna spedizione."
+ },
+ "en": {
+  "nome": "Printable 2027 Wall Year Planner",
+  "descrizione": "Colourful 2027 wall year planner in PDF: 12 months on one sheet, day and weekday initial in every cell, weekends highlighted.",
+  "descrizione_completa": "Printable 2027 wall year planner in PDF: the whole year on a single sheet, with colour-coded months, day number and weekday initial in every cell and highlighted weekends.\nSizes included: A1, A2, A3.\nPrint at home or at a print shop and hang it on the wall.\nDigital product: nothing is shipped."
+ },
+ "foto": {
+  "cosa": "a colourful printable 2027 wall year planner sheet (12 month rows x 31 day columns, coloured month tabs, weekend cells tinted)",
+  "it": "",
+  "en": "",
+  "render": "parete",
+  "testi": {
+   "it": {
+    "titolo": "PLANNER ANNUALE 2027",
+    "mesi": [
+     "GEN",
+     "FEB",
+     "MAR",
+     "APR",
+     "MAG",
+     "GIU",
+     "LUG",
+     "AGO",
+     "SET",
+     "OTT",
+     "NOV",
+     "DIC"
+    ],
+    "gg": "LMMGVSD"
+   },
+   "en": {
+    "titolo": "2027 YEAR PLANNER",
+    "mesi": [
+     "JAN",
+     "FEB",
+     "MAR",
+     "APR",
+     "MAY",
+     "JUN",
+     "JUL",
+     "AUG",
+     "SEP",
+     "OCT",
+     "NOV",
+     "DEC"
+    ],
+    "gg": "MTWTFSS"
+   }
+  }
+ }
+}

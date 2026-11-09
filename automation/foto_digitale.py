@@ -116,6 +116,29 @@ def render_planner(p, l, anno=2027):
     sp(1850, t['formati'], F('segoeuil.ttf', 64), gap=4)
     return im.resize((1200, 1200), Image.LANCZOS)
 
+def render_parete(p, l, anno=2027):
+    """Planner annuale da parete a colori (mesi colorati, weekend tinti) con date vere e testi nella lingua."""
+    import calendar, datetime
+    from PIL import ImageDraw, ImageFont
+    t = p['testi'][l]; W = 2000; FD = r'C:\Windows\Fonts'
+    F = lambda n, z: ImageFont.truetype(os.path.join(FD, n), z)
+    im = Image.new('RGB', (W, W), (255, 255, 255)); d = ImageDraw.Draw(im)
+    COL = [(167,190,102),(224,130,160),(150,150,200),(175,125,195),(240,185,70),(130,190,215),(235,135,95),(224,130,160),(175,125,195),(240,185,70),(167,190,102),(235,135,95)]
+    ft = F('segoeuil.ttf', 96); w = sum(d.textlength(c, font=ft) + 12 for c in t['titolo']) - 12; x = (W - w) / 2
+    for c in t['titolo']:
+        d.text((x, 290), c, font=ft, fill=(20, 20, 20)); x += d.textlength(c, font=ft) + 12
+    gx, gy, lab, ch = 60, 460, 120, 100; cw = (W - 120 - lab) / 31
+    fc, fm = F('segoeuil.ttf', 17), F('segoeuib.ttf', 30)
+    for m in range(12):
+        y = gy + m * ch; d.rectangle([gx, y, gx + lab, y + ch], fill=COL[m], outline=(60, 60, 60), width=2)
+        d.text((gx + lab / 2, y + ch / 2), t['mesi'][m], font=fm, fill=(255, 255, 255), anchor='mm')
+        tint = tuple(int(255 - (255 - c) * 0.35) for c in COL[m])
+        for g in range(1, calendar.monthrange(anno, m + 1)[1] + 1):
+            x = gx + lab + (g - 1) * cw; wd = datetime.date(anno, m + 1, g).weekday()
+            d.rectangle([x, y, x + cw, y + ch], fill=tint if wd >= 5 else (255, 255, 255), outline=(60, 60, 60), width=2)
+            d.text((x + 5, y + 7), '%d %s' % (g, t['gg'][wd]), font=fc, fill=(70, 70, 70))
+    return im
+
 def main(pid, solo=None, push=True):
     p = PRODOTTI[pid]; orig = os.path.join(R, 'automation', 'base', pid + '-orig.jpg'); out = os.path.join(R, 'assets', 'images', 'prodotti')
     for l, (nome, suf) in LINGUE.items():
@@ -124,7 +147,7 @@ def main(pid, solo=None, push=True):
             tmp = os.path.join(R, 'automation', 'base', pid + '-' + l + '.png'); render_overlay(p, l, orig).save(tmp)
             finale(tmp, os.path.join(out, pid + suf + '.webp')); print('ok overlay', l); continue
         if p.get('render'):
-            render_planner(p, l).save(os.path.join(out, pid + suf + '.webp'), 'WEBP', quality=92); print('ok render', l); continue
+            (render_parete if p['render'] == 'parete' else render_planner)(p, l).save(os.path.join(out, pid + suf + '.webp'), 'WEBP', quality=92); print('ok render', l); continue
         G.PROMPT['digitale'] = prompt(p, l); G.SUFFISSO['digitale'] = '_digitale'
         png = os.path.join(R, 'automation', 'base', pid + '-' + l + '.png')
         r = G.modifica(orig, 'digitale', out=png, forza=True)
