@@ -1,0 +1,13 @@
+{
+  "categoria": {"id": "planner", "it": "Planner", "en": "Planners", "slug_en": "planners", "icona": "📅"},
+  "slug_en": "printable-esempio-2027",
+  "prezzo_centesimi": 499,
+  "icona": "📅",
+  "it": {"nome": "Nome prodotto IT", "descrizione": "Descrizione breve IT", "descrizione_completa": "Descrizione completa IT"},
+  "en": {"nome": "Product name EN", "descrizione": "Short description EN", "descrizione_completa": "Full description EN"},
+  "foto": {
+    "cosa": "what the product is, in English, for the image model",
+    "it": "Translate every text into Italian exactly like this: \"ENGLISH TEXT\" -> \"TESTO ITALIANO\"",
+    "en": "Keep all text in English exactly as in the original."
+  }
+}

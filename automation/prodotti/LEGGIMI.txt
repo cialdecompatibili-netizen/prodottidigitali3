@@ -1,0 +1,6 @@
+PROMPT AUTOMATICO NUOVO PRODOTTO (prodottidigitali3)
+1) Metti la foto Etsy in automation\base\<id>-orig.jpg
+2) Crea automation\prodotti\<id>.json copiando _esempio.json (testi IT/EN, prezzo, categoria, foto)
+3) Esegui UNA volta: python automation\nuovo_prodotto.py <id>
+Fa tutto: categoria (menu automatico), catalogo, pagine IT/EN, foto IT/EN, commit+push. Rilanciabile.
+Claude: chiama solo lo script, poi stampa i 2 URL. Niente altro.
