@@ -52,6 +52,26 @@
           "immagine": "assets/images/prodotti/bullet-journal-bundle-2027-en.webp?v=6"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "calendario-mensile-2027-stampabile",
+      "nome": "Calendario mensile 2027 stampabile PDF",
+      "categoria": "planner",
+      "prezzo_centesimi": 800,
+      "descrizione": "Calendario 2027 elegante in PDF da stampare a casa: 12 mesi, formato orizzontale, inizio domenica e lunedì.",
+      "descrizione_completa": "Calendario mensile 2027 in PDF stampabile, con layout orizzontale elegante e grandi spazi per appunti. Include versioni con inizio settimana di domenica e di lunedì. Scarichi subito il file e lo stampi a casa in formato A4 come calendario da parete o da scrivania.",
+      "immagine": "assets/images/prodotti/calendario-mensile-2027-stampabile.webp?v=1",
+      "icona": "📅",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Printable 2027 Monthly Calendar PDF",
+          "descrizione": "Elegant 2027 calendar as a printable PDF: 12 months, landscape layout, Sunday and Monday start.",
+          "descrizione_completa": "Printable 2027 monthly calendar in PDF with an elegant landscape layout and roomy note spaces. Includes both Sunday-start and Monday-start versions. Download instantly and print at home on A4 as a wall or desk calendar.",
+          "immagine": "assets/images/prodotti/calendario-mensile-2027-stampabile-en.webp?v=1"
+        }
+      }
     }
   ]
 }

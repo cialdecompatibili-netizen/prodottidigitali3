@@ -1,0 +1,21 @@
+{
+  "categoria": {"id": "planner", "it": "Planner e agende stampabili", "en": "Printable planners and agendas", "slug_en": "planners", "icona": "📅"},
+  "slug_en": "printable-monthly-calendar-2027",
+  "prezzo_centesimi": 800,
+  "icona": "📅",
+  "it": {
+    "nome": "Calendario mensile 2027 stampabile PDF",
+    "descrizione": "Calendario 2027 elegante in PDF da stampare a casa: 12 mesi, formato orizzontale, inizio domenica e lunedì.",
+    "descrizione_completa": "Calendario mensile 2027 in PDF stampabile, con layout orizzontale elegante e grandi spazi per appunti. Include versioni con inizio settimana di domenica e di lunedì. Scarichi subito il file e lo stampi a casa in formato A4 come calendario da parete o da scrivania."
+  },
+  "en": {
+    "nome": "Printable 2027 Monthly Calendar PDF",
+    "descrizione": "Elegant 2027 calendar as a printable PDF: 12 months, landscape layout, Sunday and Monday start.",
+    "descrizione_completa": "Printable 2027 monthly calendar in PDF with an elegant landscape layout and roomy note spaces. Includes both Sunday-start and Monday-start versions. Download instantly and print at home on A4 as a wall or desk calendar."
+  },
+  "foto": {
+    "cosa": "a printable 2027 monthly calendar page (February 2027, landscape, elegant script title) shown on a soft textured background with PDF, printer and download icons",
+    "it": "Translate every text into Italian exactly like this: \"2027 Calendar\" -> \"Calendario 2027\"; \"february\" -> \"febbraio\"; weekday headers SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY -> DOMENICA, LUNEDI, MARTEDI, MERCOLEDI, GIOVEDI, VENERDI, SABATO; \"PRINTABLE PDF | PRINT AT HOME | INSTANT DOWNLOAD\" -> \"PDF STAMPABILE | STAMPA A CASA | DOWNLOAD IMMEDIATO\". Keep the layout, numbers and icons identical.",
+    "en": "Keep all text in English exactly as in the original."
+  }
+}
