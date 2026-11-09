@@ -84,7 +84,7 @@
             {%- assign u = item.url | default: '#' -%}
 
             {%- comment -%} 1) costruisco le voci della tendina (se ce ne sono) {%- endcomment -%}
-            {%- if i18n -%}{%- assign kids = i18n.sottomenu[item.title] -%}{%- else -%}{%- assign kids = site.data.sottomenu[item.title] -%}{%- endif -%}
+            {%- if i18n -%}{%- assign kids = i18n.sottomenu[item.title] -%}{%- else -%}{%- assign kids = site.data.sottomenu[item.title] -%}{%- endif -%}{%- if item.title == 'Categorie' or item.title == 'Categories' -%}{%- assign kids = nil -%}{%- endif -%}
             {%- comment -%} Tendina con piu' di 8 voci = LARGA su 2 colonne (niente scroll lungo). Soglia: cambia il numero 8. {%- endcomment -%}
             {%- assign wide = false -%}
             {%- if kids.size > 8 -%}{%- assign wide = true -%}{%- endif -%}
@@ -97,7 +97,8 @@
                     <a class="nv__dd-item" href="{% if k.url contains '://' %}{{ k.url }}{% else %}{{ k.url | relative_url }}{% endif %}">{{ k.title }}</a>
                   {%- endif -%}
                 {%- endfor -%}
-              {%- elsif item.title == 'Shop' -%}
+              {%- elsif item.title == 'Categorie' or item.title == 'Categories' -%}{%- for c in site.data.catalogo.categorie -%}{%- if c.visibile == false or c.genitore and c.genitore != '' -%}{%- continue -%}{%- endif -%}{%- capture cu -%}{% include shop-url.html k="cat" id=c.id %}{%- endcapture -%}<a class="nv__dd-item" href="{{ cu }}">{{ c.tr[lg].nome | default: c.nome }}</a>{%- endfor -%}<div class="nv__divider" role="separator"></div>{%- capture su -%}{% include shop-url.html k="shop" %}{%- endcapture -%}<a class="nv__dd-item" href="{{ su }}">{% if i18n %}All products{% else %}Tutti i prodotti{% endif %}</a>
+                {%- elsif item.title == 'Shop' -%}
                 {%- for c in shopnav.categories -%}
                   {%- if c.title and c.url -%}<a class="nv__dd-item" href="{{ c.url | relative_url }}">{{ c.title }}</a>{%- endif -%}
                 {%- endfor -%}
