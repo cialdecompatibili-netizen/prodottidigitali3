@@ -4,6 +4,7 @@ Template Jekyll per GitHub Pages: si clona, si cambia quasi solo `_config.yml` e
 
 **FOTO DEI PRODOTTI (shop): leggi PRIMA `docs/FOTO_PRODOTTI.md` (procedura completa provata sul pilota: foto senza testo con Gemini, foto con testo per lingua con Pillow, campo `tr.<lingua>.immagine`, pubblicazione e verifica).**
 **PRODOTTI DIGITALI: foto fedeli all'originale Etsy con `python automation\foto_digitale.py <id>` (IT+EN, push incluso); dettagli e regole in `..\..\libreria_comune\CLAUDE.md` (nota 09/11/2026).**
+**NUOVO PRODOTTO DIGITALE = 1 COMANDO (09/11/2026, provato sul pilota 3): copia `automation\prodotti\_esempio.json` in `automation\prodotti\<id>.json` (testi IT/EN, prezzo = 3x acquisto Etsy arrotondato, categoria, prompt foto), metti la foto Etsy in `automation\base\<id>-orig.jpg`, lancia `python automation\nuovo_prodotto.py <id>`. Fa categoria (il menu Categorie si genera da `catalogo.categorie`, mai liste fisse), catalogo, pagine IT/EN, foto IT/EN, commit+push. Poi stampa i 2 URL: niente altri passaggi. Guarda la foto IT prima di dire fatto.**
 
 **CREARE UN SITO DA QUESTO TEMPLATE: leggi PRIMA `docs/CLONAZIONE.md` (un comando `nuovo_sito.ps1` + `personalizza_clone.py` fanno colori, logo, sfondo home; un solo commit). Ogni automazione che impari va scritta come script in `automation/` e annotata li' (regola nella sezione 5): obiettivo meno tempo e meno commit per ogni nuovo sito.**
 
