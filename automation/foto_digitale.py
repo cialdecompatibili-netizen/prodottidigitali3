@@ -9,11 +9,17 @@ Altro prodotto = aggiungere una voce in PRODOTTI (cosa e' il prodotto + testi da
 import json, os, subprocess, sys
 sys.path.insert(0, r'C:\Users\mirco\Desktop\libreria_comune')
 from comune import gemini_foto as G
-from PIL import Image, ImageChops
+from PIL import Image, ImageChops, ImageDraw, ImageFont
 
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LINGUE = {'it': ('Italian', ''), 'en': ('English', '-en')}
 PRODOTTI = {
+ 'bullet-journal-bundle-2027': dict(
+  cosa='collage of printable bullet journal pages', overlay=dict(it=dict(
+   riga2='BULLET JOURNAL COMPLETO', sotto='• PDF stampabile • 3 formati: US Letter, A4 e A5 • Inizio domenica e lunedì •',
+   bollino1='500+', bollino2='planner e', bollino3='modelli',
+   barra='Cura di sé • Pulizie • Stile di vita • Finanze • Viaggi • Produttività • Salute • Fitness'))
+ ),
  'planner-annuale-2027-stampabile': dict(
   cosa='a printable 2027 year planner / wall calendar sheet (12 month rows x 31 day columns, each cell with day number and weekday initial, weekend cells shaded)',
   it='Translate every text into Italian exactly like this: "PRINTABLE & DIGITAL" -> "STAMPABILE E DIGITALE"; "2027 YEAR PLANNER" (both the headline and the title on the sheet) -> "PLANNER ANNUALE 2027"; '
@@ -36,6 +42,41 @@ def prompt(p, lingua):
      'Only two changes: (1) replace the textured cream background with a plain pure white #FFFFFF background (keep the soft shadow under the sheet); '
      '(2) ' + p[lingua] + ' Keep the headline lines and the sizes line with the same style and positions. '
      'Square 1:1 image, everything centred with comfortable white margins. No extra objects, no watermark, no logo.')
+
+def _font(nome, h_max, w_max, testo):
+    # sceglie il corpo piu' grande che sta in larghezza w_max e altezza h_max (cosi' i testi tradotti, piu' lunghi, non escono dal riquadro)
+    for sz in range(120, 8, -1):
+        f = ImageFont.truetype('C:/Windows/Fonts/' + nome, sz)
+        b = f.getbbox(testo)
+        if b[2] - b[0] <= w_max and b[3] - b[1] <= h_max: return f
+    return f
+
+def render_overlay(p, l, orig):
+    """Foto originale INTATTA (collage di pagine); si ricoprono solo i testi (titolo, sottotitolo, bollino, barra) e si riscrivono nella lingua. Per l'EN resta l'originale."""
+    im = Image.open(orig).convert('RGB')
+    if l not in p['overlay']: return im
+    d = ImageDraw.Draw(im); s = im.width / 900.0; o = p['overlay'][l]
+    def box(x0, y0, x1, y1): return [int(x0 * s), int(y0 * s), int(x1 * s), int(y1 * s)]
+    def testo(t, cx, cy, wmax, hmax, font, col):
+        f = _font(font, hmax * s, wmax * s, t); d.text((cx * s, cy * s), t, font=f, fill=col, anchor='mm')
+    bianco, nero = (255, 255, 255), (0, 0, 0)
+    for k, (b, cx, cy, wm, hm, font) in dict(riga2=((128, 74, 772, 120), 450, 97, 640, 44, 'seguibl.ttf'), sotto=((122, 124, 782, 150), 452, 137, 655, 20, 'segoeuib.ttf')).items():
+        d.rectangle(box(*b), fill=bianco); testo(o[k], cx, cy, wm, hm, font, nero)
+    rosso = im.getpixel((int(348 * s), int(461 * s)))            # bollino: colore campionato dall'originale
+    # bollino: cerchio individuato dai pixel rossi dell'originale (centro e raggio reali), cosi' il vecchio testo viene coperto tutto
+    x0, y0, x1, y1 = box(260, 430, 440, 590); reg = im.crop((x0, y0, x1, y1)).convert('RGB')
+    bb = Image.eval(reg, lambda v: v).point(lambda v: v)  # copia
+    px = reg.load(); xs = []; ys = []
+    for yy in range(reg.height):
+        for xx in range(reg.width):
+            q = px[xx, yy]
+            if abs(q[0] - rosso[0]) + abs(q[1] - rosso[1]) + abs(q[2] - rosso[2]) < 60: xs.append(xx); ys.append(yy)
+    bx = (x0 + min(xs) / 1.0, y0 + min(ys) / 1.0, x0 + max(xs), y0 + max(ys)); bcx = (bx[0] + bx[2]) / 2 / s; bcy = (bx[1] + bx[3]) / 2 / s; br = ((bx[2] - bx[0]) + (bx[3] - bx[1])) / 4 / s - 1
+    d.ellipse(box(bcx - br, bcy - br, bcx + br, bcy + br), fill=rosso)
+    testo(o['bollino1'], bcx, bcy - 18, 1.55 * br, 32, 'seguibl.ttf', bianco); testo(o['bollino2'], bcx, bcy + 12, 1.5 * br, 15, 'segoeuib.ttf', bianco); testo(o['bollino3'], bcx, bcy + 30, 1.5 * br, 15, 'segoeuib.ttf', bianco)
+    barra = im.getpixel((int(12 * s), int(711 * s)))              # barra in basso: colore campionato
+    d.rectangle(box(20, 694, 880, 728), fill=barra); testo(o['barra'], 450, 711, 840, 24, 'segoeuib.ttf', bianco)
+    return im
 
 def finale(src, dest):
     im = Image.open(src).convert('RGB')
@@ -79,6 +120,9 @@ def main(pid, solo=None, push=True):
     p = PRODOTTI[pid]; orig = os.path.join(R, 'automation', 'base', pid + '-orig.jpg'); out = os.path.join(R, 'assets', 'images', 'prodotti')
     for l, (nome, suf) in LINGUE.items():
         if solo and l != solo: continue
+        if p.get('overlay'):
+            tmp = os.path.join(R, 'automation', 'base', pid + '-' + l + '.png'); render_overlay(p, l, orig).save(tmp)
+            finale(tmp, os.path.join(out, pid + suf + '.webp')); print('ok overlay', l); continue
         if p.get('render'):
             render_planner(p, l).save(os.path.join(out, pid + suf + '.webp'), 'WEBP', quality=92); print('ok render', l); continue
         G.PROMPT['digitale'] = prompt(p, l); G.SUFFISSO['digitale'] = '_digitale'

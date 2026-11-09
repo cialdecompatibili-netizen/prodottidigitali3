@@ -32,6 +32,26 @@
           "immagine": "assets/images/prodotti/planner-annuale-2027-stampabile-en.webp?v=5"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "bullet-journal-bundle-2027",
+      "nome": "Bullet Journal 2026 + 2027 stampabile",
+      "categoria": "planner",
+      "prezzo_centesimi": 1000,
+      "descrizione": "Bullet journal 2026 e 2027 in PDF: oltre 500 pagine tra planner, tracker, finanze, viaggi e cura di sé.",
+      "descrizione_completa": "Bullet journal completo 2026 + 2027 in PDF: oltre 500 pagine stampabili.\nFormati inclusi: US Letter, A4 e A5, con inizio settimana domenica o lunedì.\nCopertina, indice e calendario annuale; per ogni mese copertina, calendario, planner, revisione, bingo e doodle del giorno.\nPlanner giornaliero, settimanale e mensile, obiettivi, tracker di abitudini, cura di sé, pulizie di casa, pasti, viaggi e finanze.\nDownload digitale immediato: stampa da casa o in tipografia.\nProdotto digitale: nessuna spedizione.",
+      "immagine": "assets/images/prodotti/bullet-journal-bundle-2027.webp?v=6",
+      "icona": "📓",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Printable Bullet Journal 2026 + 2027",
+          "descrizione": "2026 and 2027 bullet journal in PDF: 500+ pages of planners, trackers, finance, travel and self-care.",
+          "descrizione_completa": "Complete 2026 + 2027 bullet journal in PDF: 500+ printable pages.\nSizes included: US Letter, A4 and A5, with Sunday or Monday week start.\nCover, index and yearly calendar; for each month a cover, calendar, planner, review, bingo and doodle of the day.\nDaily, weekly and monthly planners, goals, habit trackers, self-care, house cleaning, meals, travel and finance.\nInstant digital download: print at home or at a print shop.\nDigital product: nothing is shipped.",
+          "immagine": "assets/images/prodotti/bullet-journal-bundle-2027-en.webp?v=6"
+        }
+      }
     }
   ]
 }
