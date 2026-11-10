@@ -312,6 +312,26 @@
           "immagine": "assets/images/prodotti/inviti-nozze-botanici-modificabili-canva-en.webp?v=1"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "escape-room-stampabile-biblioteca-misteriosa",
+      "nome": "Escape room stampabile: il mistero della biblioteca",
+      "categoria": "bambini",
+      "prezzo_centesimi": 5000,
+      "descrizione": "Escape room da stampare per ragazzi: enigmi e indizi da risolvere in gruppo, senza internet.",
+      "descrizione_completa": "Escape room stampabile in PDF per ragazzi: una biblioteca misteriosa da esplorare risolvendo enigmi e indizi, da soli o in gruppo. Si stampa a casa, non servono internet ne lucchetti.",
+      "immagine": "assets/images/prodotti/escape-room-stampabile-biblioteca-misteriosa.webp?v=1",
+      "icona": "🧩",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Printable Escape Room: The Mysterious Library",
+          "descrizione": "Printable escape room for kids and teens: puzzles and clues to solve together, no internet needed.",
+          "descrizione_completa": "Printable PDF escape room for kids and teens: explore a mysterious library by solving puzzles and clues, alone or in a group. Print at home, no internet or locks needed.",
+          "immagine": "assets/images/prodotti/escape-room-stampabile-biblioteca-misteriosa-en.webp?v=1"
+        }
+      }
     }
   ]
 }
