@@ -27,3 +27,7 @@ planner, budget, habit, matrimonio, bambini, pasti, uncinetto, cv (nomi IT/EN in
 - Mai riscrivere catalogo.json con PowerShell (BOM): solo Python json.
 - Verifica online la fa Mirco dopo il push. Guardare la foto IT prima di dire fatto.
 - Licenza: molti file Etsy sono "solo uso personale". Prima di vendere un prodotto controllare che l'annuncio non vieti la rivendita.
+
+## Flusso automatico (usare questo)
+- `python automation\listino\auto.py N` fa tutto (vedi docstring in auto.py). Niente browser Etsy: nome/prezzo/categoria vengono da grezzo.json.
+- Per rinfrescare le best seller: raccogli.py. Voci curate a mano: originali.json (+ originali.py).
