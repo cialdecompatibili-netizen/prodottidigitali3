@@ -1,0 +1,27 @@
+{
+ "categoria": {
+  "id": "cv",
+  "it": "Curriculum e lavoro",
+  "en": "Resume and career",
+  "slug_en": "resume-career",
+  "icona": "📄"
+ },
+ "slug_en": "ats-resume-template-word-docs-pages",
+ "prezzo_centesimi": 3000,
+ "icona": "📄",
+ "it": {
+  "nome": "Modello di curriculum ATS compatibile",
+  "descrizione": "Curriculum minimalista compatibile ATS per Word, Pages e Google Docs.",
+  "descrizione_completa": "Modello di curriculum compatibile con i sistemi ATS, in stile minimalista, utilizzabile con Word, Pages e Google Docs."
+ },
+ "en": {
+  "nome": "ATS Friendly Resume Template",
+  "descrizione": "Minimalist ATS compatible resume for Word, Pages and Google Docs.",
+  "descrizione_completa": "ATS compatible resume template with a minimalist style, usable with Word, Pages and Google Docs."
+ },
+ "foto": {
+  "cosa": "a minimalist ATS friendly resume template page",
+  "it": "Translate every visible text on the image into Italian (leave it as is if already Italian). Keep numbers, icons, layout, fonts and colours identical.",
+  "en": "Translate every visible text on the image into English (leave it as is if already English). Keep numbers, icons, layout, fonts and colours identical."
+ }
+}

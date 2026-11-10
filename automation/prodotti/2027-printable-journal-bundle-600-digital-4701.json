@@ -1,0 +1,27 @@
+{
+ "categoria": {
+  "id": "planner",
+  "it": "Planner e agende stampabili",
+  "en": "Printable planners and agendas",
+  "slug_en": "planners",
+  "icona": "📅"
+ },
+ "slug_en": "printable-journal-600-inserts-2027",
+ "prezzo_centesimi": 3000,
+ "icona": "📅",
+ "it": {
+  "nome": "Pacchetto journal 2027 con oltre 600 pagine stampabili",
+  "descrizione": "Oltre 600 pagine PDF A4 e A5: tracker di abitudini, finanze, fitness, pasti, letture e umore.",
+  "descrizione_completa": "Pacchetto journal 2027 stampabile con oltre 600 inserti in PDF, formati A4 e A5: tracker di abitudini, finanze, fitness, pasti, letture e umore. Il PDF e pronto da stampare e non e modificabile."
+ },
+ "en": {
+  "nome": "2027 Printable Journal Bundle 600+ Inserts",
+  "descrizione": "600+ printable A4 and A5 PDF pages: habit, finance, fitness, meal, reading and mood trackers.",
+  "descrizione_completa": "2027 printable journal bundle with 600+ inserts in A4 and A5 PDF: habit, finance, fitness, meal, reading and mood trackers. Ready-to-print PDF, not editable."
+ },
+ "foto": {
+  "cosa": "a 2027 printable journal bundle with 600+ planner inserts: habit, finance, fitness, meal, reading and mood trackers",
+  "it": "Translate every visible text on the image into Italian (leave it as is if already Italian). Keep numbers, icons, layout, fonts and colours identical.",
+  "en": "Translate every visible text on the image into English (leave it as is if already English). Keep numbers, icons, layout, fonts and colours identical."
+ }
+}

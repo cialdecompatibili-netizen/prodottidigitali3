@@ -1,0 +1,27 @@
+{
+ "categoria": {
+  "id": "matrimonio",
+  "it": "Matrimonio e inviti",
+  "en": "Wedding and invitations",
+  "slug_en": "wedding-invitations",
+  "icona": "💌"
+ },
+ "slug_en": "wedding-invitation-bundle-9-canva-sets",
+ "prezzo_centesimi": 5500,
+ "icona": "💌",
+ "it": {
+  "nome": "Pacchetto 9 set di inviti di nozze modificabili su Canva",
+  "descrizione": "9 set completi di inviti di nozze modificabili su Canva: stili western, floreale e italiano.",
+  "descrizione_completa": "Pacchetto di 9 set completi di inviti di nozze, modificabili su Canva, con design colorati in stile western, floreale e italiano. Download immediato."
+ },
+ "en": {
+  "nome": "Wedding Invitation Bundle 9 Canva Sets",
+  "descrizione": "9 complete wedding invitation sets editable on Canva: western, floral and Italian styles.",
+  "descrizione_completa": "Bundle of 9 complete wedding invitation sets, editable on Canva, with colorful western, floral and Italian style designs. Instant download."
+ },
+ "foto": {
+  "cosa": "a bundle of nine wedding invitation suite designs, western floral and Italian styles, editable Canva templates",
+  "it": "Translate every visible text on the image into Italian (leave it as is if already Italian). Keep numbers, icons, layout, fonts and colours identical.",
+  "en": "Translate every visible text on the image into English (leave it as is if already English). Keep numbers, icons, layout, fonts and colours identical."
+ }
+}
