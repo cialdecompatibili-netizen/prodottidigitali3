@@ -20,6 +20,16 @@
           "nome": "Budget and finance"
         }
       }
+    },
+    {
+      "nome": "Giochi e attivita stampabili",
+      "id": "bambini",
+      "icona": "🧩",
+      "tr": {
+        "en": {
+          "nome": "Printable games and activities"
+        }
+      }
     }
   ],
   "prodotti": [
@@ -120,6 +130,26 @@
           "descrizione": "Dark mode Google Sheets with a monthly budget, habit tracker and savings goals.",
           "descrizione_completa": "Google Sheets organizer in dark mode with three linked tabs: monthly budget, habit tracker and savings goals. Copy it to your Drive and make it your own.",
           "immagine": "assets/images/prodotti/organizer-finanze-abitudini-google-sheets-scuro-en.webp?v=1"
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "quaderno-attivita-prescolari-stampabile",
+      "nome": "Quaderno di attivita prescolari stampabile per bambini 3-5 anni",
+      "categoria": "bambini",
+      "prezzo_centesimi": 4000,
+      "descrizione": "Quaderno da stampare con giochi di abbinamento, tracciati e conteggio per la scuola dell'infanzia.",
+      "descrizione_completa": "Quaderno stampabile in PDF per bambini dai 3 ai 5 anni: giochi di abbinamento, tracciati per la pre-scrittura e semplici esercizi di conteggio. Si stampa a casa e si rilega in un raccoglitore.",
+      "immagine": "assets/images/prodotti/quaderno-attivita-prescolari-stampabile.webp?v=1",
+      "icona": "🧩",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Printable Preschool Activity Book for Ages 3-5",
+          "descrizione": "Printable book with matching games, tracing and counting for preschoolers.",
+          "descrizione_completa": "Printable PDF activity book for children aged 3 to 5: matching games, pre-writing tracing and simple counting exercises. Print it at home and bind it in a folder.",
+          "immagine": "assets/images/prodotti/quaderno-attivita-prescolari-stampabile-en.webp?v=1"
         }
       }
     }
