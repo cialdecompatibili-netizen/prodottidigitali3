@@ -1,0 +1,28 @@
+{
+ "categoria": {
+  "id": "bambini",
+  "it": "Giochi e attivita stampabili",
+  "en": "Printable games and activities",
+  "slug_en": "games-activities",
+  "icona": "🧩"
+ },
+ "slug_en": "printable-escape-room-mysterious-library",
+ "prezzo_centesimi": 5000,
+ "icona": "🧩",
+ "it": {
+  "nome": "Escape room stampabile: il mistero della biblioteca",
+  "descrizione": "Escape room da stampare per ragazzi: enigmi e indizi da risolvere in gruppo, senza internet.",
+  "descrizione_completa": "Escape room stampabile in PDF per ragazzi: una biblioteca misteriosa da esplorare risolvendo enigmi e indizi, da soli o in gruppo. Si stampa a casa, non servono internet ne lucchetti."
+ },
+ "en": {
+  "nome": "Printable Escape Room: The Mysterious Library",
+  "descrizione": "Printable escape room for kids and teens: puzzles and clues to solve together, no internet needed.",
+  "descrizione_completa": "Printable PDF escape room for kids and teens: explore a mysterious library by solving puzzles and clues, alone or in a group. Print at home, no internet or locks needed."
+ },
+ "foto": {
+  "cosa": "Printable Escape Room: The Mysterious Library",
+  "originale": "flat lay product photo of printed escape room game pages with a vintage key, a magnifying glass, a sealed envelope and cipher wheel on a dark wooden table, moody warm lighting, no readable text, no letters, no logos",
+  "it": "",
+  "en": ""
+ }
+}

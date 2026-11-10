@@ -1,0 +1,28 @@
+{
+ "categoria": {
+  "id": "budget",
+  "it": "Budget e finanze",
+  "en": "Budget and finance",
+  "slug_en": "budget-finance",
+  "icona": "💶"
+ },
+ "slug_en": "printable-monthly-budget-planner",
+ "prezzo_centesimi": 4000,
+ "icona": "💶",
+ "it": {
+  "nome": "Budget planner mensile stampabile: entrate, spese e risparmi",
+  "descrizione": "Pagine PDF da stampare per tenere sotto controllo entrate, spese e risparmi ogni mese.",
+  "descrizione_completa": "Budget planner in PDF da stampare: pagine mensili per entrate, spese fisse e variabili e obiettivi di risparmio, con riepilogo annuale. Ideale da tenere in un raccoglitore."
+ },
+ "en": {
+  "nome": "Printable Monthly Budget Planner: Income, Expenses and Savings",
+  "descrizione": "Printable PDF pages to track income, expenses and savings every month.",
+  "descrizione_completa": "Printable PDF budget planner: monthly pages for income, fixed and variable expenses and savings goals, with a yearly summary. Ideal for a binder."
+ },
+ "foto": {
+  "cosa": "Printable Monthly Budget Planner: Income, Expenses and Savings",
+  "originale": "flat lay product photo of printed budget planner pages with tables and a savings jar illustration, a calculator, a pen and a few coins on a white desk, soft green and navy palette, soft natural shadow, no readable text, no letters, no logos",
+  "it": "",
+  "en": ""
+ }
+}

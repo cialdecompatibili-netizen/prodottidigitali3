@@ -1,0 +1,28 @@
+{
+ "categoria": {
+  "id": "uncinetto",
+  "it": "Schemi uncinetto PDF",
+  "en": "Crochet patterns PDF",
+  "slug_en": "crochet-patterns",
+  "icona": "🧶"
+ },
+ "slug_en": "crochet-animal-patterns-collection",
+ "prezzo_centesimi": 1500,
+ "icona": "🧶",
+ "it": {
+  "nome": "Raccolta di schemi uncinetto: animali amigurumi in PDF",
+  "descrizione": "Schemi all'uncinetto in PDF per piccoli animali amigurumi, adatti anche ai principianti.",
+  "descrizione_completa": "Raccolta di schemi in PDF per realizzare animaletti amigurumi all'uncinetto, con istruzioni passo passo adatte anche a chi inizia. Scarichi subito i file."
+ },
+ "en": {
+  "nome": "Crochet Animal Amigurumi Pattern Collection PDF",
+  "descrizione": "Crochet patterns in PDF for small amigurumi animals, beginner friendly.",
+  "descrizione_completa": "Collection of PDF patterns to crochet small amigurumi animals, with step-by-step instructions suited to beginners. Download the files instantly."
+ },
+ "foto": {
+  "cosa": "Crochet Animal Amigurumi Pattern Collection PDF",
+  "originale": "product photo of a group of handmade crochet amigurumi animals (bunny, bear, fox) in soft pastel yarn with a crochet hook and yarn balls, on a white wooden surface, soft natural light, no readable text, no letters, no logos",
+  "it": "",
+  "en": ""
+ }
+}

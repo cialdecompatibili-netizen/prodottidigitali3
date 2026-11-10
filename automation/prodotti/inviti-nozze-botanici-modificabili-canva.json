@@ -1,0 +1,28 @@
+{
+ "categoria": {
+  "id": "matrimonio",
+  "it": "Matrimonio e inviti",
+  "en": "Wedding and invitations",
+  "slug_en": "wedding-invitations",
+  "icona": "💌"
+ },
+ "slug_en": "botanical-wedding-invitation-canva",
+ "prezzo_centesimi": 5500,
+ "icona": "💌",
+ "it": {
+  "nome": "Set inviti di nozze botanici modificabili su Canva",
+  "descrizione": "Set coordinato di inviti di nozze in stile botanico, modificabile su Canva.",
+  "descrizione_completa": "Set coordinato di inviti di nozze in stile botanico, modificabile su Canva: cambi nomi, data e luogo e scarichi i file pronti da stampare o inviare online."
+ },
+ "en": {
+  "nome": "Botanical Wedding Invitation Set Editable on Canva",
+  "descrizione": "Matching botanical-style wedding invitation set, editable on Canva.",
+  "descrizione_completa": "Matching wedding invitation set in a botanical style, editable on Canva: change names, date and venue and download files ready to print or send online."
+ },
+ "foto": {
+  "cosa": "Botanical Wedding Invitation Set Editable on Canva",
+  "originale": "flat lay mockup of an elegant wedding invitation suite (invitation card, RSVP card, envelope) with watercolor green leaves and eucalyptus, cream paper on a soft linen background, gentle natural shadow, abstract line placeholders instead of text, no readable text, no letters, no logos",
+  "it": "",
+  "en": ""
+ }
+}

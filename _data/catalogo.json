@@ -10,6 +10,16 @@
           "nome": "Printable planners and diaries"
         }
       }
+    },
+    {
+      "nome": "Budget e finanze",
+      "id": "budget",
+      "icona": "💶",
+      "tr": {
+        "en": {
+          "nome": "Budget and finance"
+        }
+      }
     }
   ],
   "prodotti": [
@@ -90,6 +100,26 @@
           "descrizione": "Clean 2027 planner and bullet journal in printable PDF: monthly calendars, weekly pages and trackers.",
           "descrizione_completa": "Clean, minimal 2027 planner in a printable PDF to print at home. One package that combines planner and bullet journal: monthly calendars, weekly pages, habit and mood trackers. Download instantly and print on A4 or A5.",
           "immagine": "assets/images/prodotti/agenda-2027-minimal-journal-en.webp?v=1"
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "organizer-finanze-abitudini-google-sheets-scuro",
+      "nome": "Organizer finanze e abitudini per Google Sheets, tema scuro",
+      "categoria": "budget",
+      "prezzo_centesimi": 5500,
+      "descrizione": "Foglio Google Sheets in tema scuro per budget mensile, abitudini e obiettivi di risparmio.",
+      "descrizione_completa": "Organizer in Google Sheets con tema scuro e tre schede collegate: budget mensile, tracker delle abitudini e obiettivi di risparmio. Lo copi nel tuo Drive e lo personalizzi come preferisci.",
+      "immagine": "assets/images/prodotti/organizer-finanze-abitudini-google-sheets-scuro.webp?v=1",
+      "icona": "💶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Dark Mode Finance and Habits Organizer for Google Sheets",
+          "descrizione": "Dark mode Google Sheets with a monthly budget, habit tracker and savings goals.",
+          "descrizione_completa": "Google Sheets organizer in dark mode with three linked tabs: monthly budget, habit tracker and savings goals. Copy it to your Drive and make it your own.",
+          "immagine": "assets/images/prodotti/organizer-finanze-abitudini-google-sheets-scuro-en.webp?v=1"
         }
       }
     }

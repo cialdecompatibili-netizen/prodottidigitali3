@@ -1,0 +1,28 @@
+{
+ "categoria": {
+  "id": "cv",
+  "it": "Curriculum e lavoro",
+  "en": "Resume and career",
+  "slug_en": "resume-career",
+  "icona": "📄"
+ },
+ "slug_en": "modern-ats-resume-word-docs",
+ "prezzo_centesimi": 3000,
+ "icona": "📄",
+ "it": {
+  "nome": "Curriculum moderno compatibile ATS per Word e Google Docs",
+  "descrizione": "Modello di curriculum pulito e leggibile dai sistemi ATS, modificabile in Word e Google Docs.",
+  "descrizione_completa": "Modello di curriculum dal layout pulito, pensato per essere letto correttamente dai sistemi di selezione ATS. Modificabile in Word e Google Docs: sostituisci i testi e scarichi il PDF."
+ },
+ "en": {
+  "nome": "Modern ATS-Friendly Resume for Word and Google Docs",
+  "descrizione": "Clean resume template readable by ATS systems, editable in Word and Google Docs.",
+  "descrizione_completa": "Resume template with a clean layout, designed to be read correctly by ATS screening systems. Editable in Word and Google Docs: replace the text and export your PDF."
+ },
+ "foto": {
+  "cosa": "Modern ATS-Friendly Resume for Word and Google Docs",
+  "originale": "product mockup of two clean minimalist resume pages with placeholder lines and a small circular photo area, on a light grey desk with a pen and a laptop corner, soft shadow, no readable text, no letters, no logos",
+  "it": "",
+  "en": ""
+ }
+}

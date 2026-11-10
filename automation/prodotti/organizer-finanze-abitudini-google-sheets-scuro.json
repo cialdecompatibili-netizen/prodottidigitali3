@@ -1,0 +1,28 @@
+{
+ "categoria": {
+  "id": "budget",
+  "it": "Budget e finanze",
+  "en": "Budget and finance",
+  "slug_en": "budget-finance",
+  "icona": "💶"
+ },
+ "slug_en": "dark-finance-habits-organizer-sheets",
+ "prezzo_centesimi": 5500,
+ "icona": "💶",
+ "it": {
+  "nome": "Organizer finanze e abitudini per Google Sheets, tema scuro",
+  "descrizione": "Foglio Google Sheets in tema scuro per budget mensile, abitudini e obiettivi di risparmio.",
+  "descrizione_completa": "Organizer in Google Sheets con tema scuro e tre schede collegate: budget mensile, tracker delle abitudini e obiettivi di risparmio. Lo copi nel tuo Drive e lo personalizzi come preferisci."
+ },
+ "en": {
+  "nome": "Dark Mode Finance and Habits Organizer for Google Sheets",
+  "descrizione": "Dark mode Google Sheets with a monthly budget, habit tracker and savings goals.",
+  "descrizione_completa": "Google Sheets organizer in dark mode with three linked tabs: monthly budget, habit tracker and savings goals. Copy it to your Drive and make it your own."
+ },
+ "foto": {
+  "cosa": "Dark Mode Finance and Habits Organizer for Google Sheets",
+  "originale": "flat lay product mockup of a laptop and a tablet showing a dark mode spreadsheet dashboard with charts, budget table and habit grid in charcoal and teal colors, on a clean light desk, soft natural shadow, no readable text, no letters, no logos",
+  "it": "",
+  "en": ""
+ }
+}

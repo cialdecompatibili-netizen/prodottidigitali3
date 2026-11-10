@@ -1,0 +1,28 @@
+{
+ "categoria": {
+  "id": "bambini",
+  "it": "Giochi e attivita stampabili",
+  "en": "Printable games and activities",
+  "slug_en": "games-activities",
+  "icona": "🧩"
+ },
+ "slug_en": "preschool-activity-book-printable",
+ "prezzo_centesimi": 4000,
+ "icona": "🧩",
+ "it": {
+  "nome": "Quaderno di attivita prescolari stampabile per bambini 3-5 anni",
+  "descrizione": "Quaderno da stampare con giochi di abbinamento, tracciati e conteggio per la scuola dell'infanzia.",
+  "descrizione_completa": "Quaderno stampabile in PDF per bambini dai 3 ai 5 anni: giochi di abbinamento, tracciati per la pre-scrittura e semplici esercizi di conteggio. Si stampa a casa e si rilega in un raccoglitore."
+ },
+ "en": {
+  "nome": "Printable Preschool Activity Book for Ages 3-5",
+  "descrizione": "Printable book with matching games, tracing and counting for preschoolers.",
+  "descrizione_completa": "Printable PDF activity book for children aged 3 to 5: matching games, pre-writing tracing and simple counting exercises. Print it at home and bind it in a folder."
+ },
+ "foto": {
+  "cosa": "Printable Preschool Activity Book for Ages 3-5",
+  "originale": "flat lay product photo of a printed preschool activity book spread open with colorful animal matching cards, tracing sheets and counting pages, wooden crayons and a small pair of scissors, bright pastel palette on a white table, soft natural shadow, no readable text, no letters, no logos",
+  "it": "",
+  "en": ""
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "categoria": {
+  "id": "pasti",
+  "it": "Meal planner e cucina",
+  "en": "Meal planners and kitchen",
+  "slug_en": "meal-planners",
+  "icona": "🍽"
+ },
+ "slug_en": "weekly-menu-shopping-list-sheets",
+ "prezzo_centesimi": 3000,
+ "icona": "🍽",
+ "it": {
+  "nome": "Menu settimanale e lista della spesa in foglio di calcolo",
+  "descrizione": "Foglio di calcolo per pianificare i pasti della settimana e generare la lista della spesa.",
+  "descrizione_completa": "Foglio di calcolo per organizzare il menu della settimana, raccogliere le ricette preferite e preparare la lista della spesa. Funziona su Google Sheets ed Excel."
+ },
+ "en": {
+  "nome": "Weekly Menu and Grocery List Spreadsheet",
+  "descrizione": "Spreadsheet to plan the week's meals and build your grocery list.",
+  "descrizione_completa": "Spreadsheet to organize the weekly menu, collect favorite recipes and prepare the grocery list. Works on Google Sheets and Excel."
+ },
+ "foto": {
+  "cosa": "Weekly Menu and Grocery List Spreadsheet",
+  "originale": "flat lay product mockup of a tablet showing a colorful weekly meal planner spreadsheet with a grid of days and a grocery list, next to fresh vegetables, a wooden spoon and a notepad on a light kitchen table, warm natural light, no readable text, no letters, no logos",
+  "it": "",
+  "en": ""
+ }
+}
