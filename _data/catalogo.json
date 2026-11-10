@@ -60,6 +60,16 @@
           "nome": "Resume and career"
         }
       }
+    },
+    {
+      "nome": "Matrimonio e inviti",
+      "id": "matrimonio",
+      "icona": "💌",
+      "tr": {
+        "en": {
+          "nome": "Wedding and invitations"
+        }
+      }
     }
   ],
   "prodotti": [
@@ -280,6 +290,26 @@
           "descrizione": "Printable PDF pages to track income, expenses and savings every month.",
           "descrizione_completa": "Printable PDF budget planner: monthly pages for income, fixed and variable expenses and savings goals, with a yearly summary. Ideal for a binder.",
           "immagine": "assets/images/prodotti/budget-planner-mensile-stampabile-en.webp?v=1"
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "inviti-nozze-botanici-modificabili-canva",
+      "nome": "Set inviti di nozze botanici modificabili su Canva",
+      "categoria": "matrimonio",
+      "prezzo_centesimi": 5500,
+      "descrizione": "Set coordinato di inviti di nozze in stile botanico, modificabile su Canva.",
+      "descrizione_completa": "Set coordinato di inviti di nozze in stile botanico, modificabile su Canva: cambi nomi, data e luogo e scarichi i file pronti da stampare o inviare online.",
+      "immagine": "assets/images/prodotti/inviti-nozze-botanici-modificabili-canva.webp?v=1",
+      "icona": "💌",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Botanical Wedding Invitation Set Editable on Canva",
+          "descrizione": "Matching botanical-style wedding invitation set, editable on Canva.",
+          "descrizione_completa": "Matching wedding invitation set in a botanical style, editable on Canva: change names, date and venue and download files ready to print or send online.",
+          "immagine": "assets/images/prodotti/inviti-nozze-botanici-modificabili-canva-en.webp?v=1"
         }
       }
     }
