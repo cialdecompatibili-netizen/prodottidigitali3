@@ -50,6 +50,16 @@
           "nome": "Crochet patterns PDF"
         }
       }
+    },
+    {
+      "nome": "Curriculum e lavoro",
+      "id": "cv",
+      "icona": "📄",
+      "tr": {
+        "en": {
+          "nome": "Resume and career"
+        }
+      }
     }
   ],
   "prodotti": [
@@ -210,6 +220,26 @@
           "descrizione": "Crochet patterns in PDF for small amigurumi animals, beginner friendly.",
           "descrizione_completa": "Collection of PDF patterns to crochet small amigurumi animals, with step-by-step instructions suited to beginners. Download the files instantly.",
           "immagine": "assets/images/prodotti/raccolta-schemi-uncinetto-animali-en.webp?v=1"
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "curriculum-moderno-ats-word-docs",
+      "nome": "Curriculum moderno compatibile ATS per Word e Google Docs",
+      "categoria": "cv",
+      "prezzo_centesimi": 3000,
+      "descrizione": "Modello di curriculum pulito e leggibile dai sistemi ATS, modificabile in Word e Google Docs.",
+      "descrizione_completa": "Modello di curriculum dal layout pulito, pensato per essere letto correttamente dai sistemi di selezione ATS. Modificabile in Word e Google Docs: sostituisci i testi e scarichi il PDF.",
+      "immagine": "assets/images/prodotti/curriculum-moderno-ats-word-docs.webp?v=1",
+      "icona": "📄",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Modern ATS-Friendly Resume for Word and Google Docs",
+          "descrizione": "Clean resume template readable by ATS systems, editable in Word and Google Docs.",
+          "descrizione_completa": "Resume template with a clean layout, designed to be read correctly by ATS screening systems. Editable in Word and Google Docs: replace the text and export your PDF.",
+          "immagine": "assets/images/prodotti/curriculum-moderno-ats-word-docs-en.webp?v=1"
         }
       }
     }
