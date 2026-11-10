@@ -1,6 +1,6 @@
 ---
 layout: negozio-categoria
-title: "Giochi e attivita stampabili"
+title: "Prodotti digitali per bambini"
 cid: bambini
 permalink: /negozio/categoria/bambini/
 ref: shop-cat-bambini

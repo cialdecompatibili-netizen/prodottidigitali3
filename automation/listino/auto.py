@@ -21,7 +21,7 @@ TIMEOUT = 480  # secondi per prodotto (pagine + 1 foto Gemini)
 CAT = {
  'planner': dict(id='planner', it='Planner e agende stampabili', en='Printable planners and agendas', slug_en='planners', icona='\U0001F4C5'),
  'budget': dict(id='budget', it='Budget e finanze', en='Budget and finance', slug_en='budget-finance', icona='\U0001F4B6'),
- 'bambini': dict(id='bambini', it='Giochi e attivita stampabili', en='Printable games and activities', slug_en='games-activities', icona='\U0001F9E9'),
+ 'bambini': dict(id='bambini', it='Prodotti digitali per bambini', en='Digital printables for kids', slug_en='games-activities', icona='\U0001F9F8'),
  'pasti': dict(id='pasti', it='Meal planner e cucina', en='Meal planners and kitchen', slug_en='meal-planners', icona='\U0001F37D'),
  'uncinetto': dict(id='uncinetto', it='Schemi uncinetto PDF', en='Crochet patterns PDF', slug_en='crochet-patterns', icona='\U0001F9F6'),
  'cv': dict(id='cv', it='Curriculum e lavoro', en='Resume and career', slug_en='resume-career', icona='\U0001F4C4'),
@@ -58,7 +58,16 @@ SCENA = ['on a white desk, soft natural shadow, bright airy palette', 'on a ligh
 NOTXT = ', no readable text, no letters, no logos'
 slug = lambda s: re.sub(r'\W+', '-', s.lower().encode('ascii', 'ignore').decode()).strip('-')
 
+_cf = os.path.join(HERE, 'curati.json')
+CUR = json.load(open(_cf, encoding='utf-8')) if os.path.exists(_cf) else {}  # {listing_etsy: {cat, pid, slug_en, it:[nome,desc,full], en:[...], foto}} testi curati a mano: vincono sulla bozza
+
 def bozza(cid, nome, listing, acq):
+    o = CUR.get(listing)
+    if o:
+        c = CAT[o['cat']]; it, en = o['it'], o['en']
+        return o['pid'], dict(categoria=c, slug_en=o['slug_en'], prezzo_centesimi=int(prezzo.vendita(acq)) * 100, icona=c['icona'],
+            it=dict(nome=it[0], descrizione=it[1], descrizione_completa=it[2]), en=dict(nome=en[0], descrizione=en[1], descrizione_completa=en[2]),
+            foto=dict(cosa=en[0], originale=o['foto'], it='', en=''))
     t = nome.lower(); h = int(listing[-3:]) % 3
     b = BASE[cid]; ai, ae = ADJ[h]
     f = next((x for x in FMT if re.search(x[0], t)), None)
@@ -110,14 +119,15 @@ def anteprima(pids):
         out = os.path.join(HERE, 'anteprima.png'); S.save(out); return out
     except Exception as e: print('anteprima KO', e)
 
-def main(n):
+def main(n, forza=None):
     fatti = []
     pend = os.path.join(HERE, 'lotto_orig.json')
-    if os.path.exists(pend): fatti += lancia(json.load(open(pend)), n)       # 1) lotto manuale in sospeso (testi curati in originali.json)
+    if os.path.exists(pend) and not forza: fatti += lancia(json.load(open(pend)), n)       # 1) lotto manuale in sospeso (testi curati in originali.json)
     if len(fatti) < n:                                                       # 2) prossimi dal listino (bozze automatiche)
         st = leggi_stato(); cand = []
         for cid, pos, p in L.ordine:
             i = L.lid(p['link'])
+            if forza and i != forza: continue
             if i in L.visti or st.get(i, {}).get('stato') in ('fatto', 'saltato') or cid not in BASE: continue
             m = re.search(r'[\d.,]+', p.get('prezzo') or '')
             if not m: continue
@@ -136,4 +146,6 @@ def main(n):
     print('PUBBLICATI %d:' % len(fatti)); [print(' ', SITO + 'negozio/' + p + '/') for p in fatti]
 
 if __name__ == '__main__':
-    main(int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 5)
+    # python auto.py [N]   |   python auto.py --listing <id_etsy>  (un prodotto preciso del listino, usa curati.json se c'e' la voce)
+    if '--listing' in sys.argv: main(1, sys.argv[sys.argv.index('--listing') + 1])
+    else: main(int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 5)

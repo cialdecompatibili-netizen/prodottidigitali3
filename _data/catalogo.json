@@ -22,12 +22,12 @@
       }
     },
     {
-      "nome": "Giochi e attivita stampabili",
+      "nome": "Prodotti digitali per bambini",
       "id": "bambini",
-      "icona": "🧩",
+      "icona": "🧸",
       "tr": {
         "en": {
-          "nome": "Printable games and activities"
+          "nome": "Digital printables for kids"
         }
       }
     },

@@ -1,9 +1,9 @@
 ---
 layout: negozio-categoria
-title: "Printable games and activities"
+title: "Digital printables for kids"
 cid: bambini
 permalink: /en/shop/category/games-activities/
-description: "Printable games and activities"
+description: "Digital printables for kids"
 lang: en
 locale: en
 tr: tradotto

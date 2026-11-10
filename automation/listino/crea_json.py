@@ -8,7 +8,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 CAT = {
  'planner': dict(id='planner', it='Planner e agende stampabili', en='Printable planners and agendas', slug_en='planners', icona='\U0001F4C5'),
  'budget': dict(id='budget', it='Budget e finanze', en='Budget and finance', slug_en='budget-finance', icona='\U0001F4B6'),
- 'bambini': dict(id='bambini', it='Giochi e attivita stampabili', en='Printable games and activities', slug_en='games-activities', icona='\U0001F9E9'),
+ 'bambini': dict(id='bambini', it='Prodotti digitali per bambini', en='Digital printables for kids', slug_en='games-activities', icona='\U0001F9F8'),
  'pasti': dict(id='pasti', it='Meal planner e cucina', en='Meal planners and kitchen', slug_en='meal-planners', icona='\U0001F37D'),
  'uncinetto': dict(id='uncinetto', it='Schemi uncinetto PDF', en='Crochet patterns PDF', slug_en='crochet-patterns', icona='\U0001F9F6'),
  'cv': dict(id='cv', it='Curriculum e lavoro', en='Resume and career', slug_en='resume-career', icona='\U0001F4C4'),
