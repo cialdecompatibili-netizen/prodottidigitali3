@@ -1,6 +1,34 @@
 {
- "4584610030": {"cat": "bambini", "pid": "bingo-di-natale-stampabile-per-bambini", "slug_en": "printable-christmas-bingo-for-kids",
-  "it": ["Bingo di Natale stampabile per bambini", "Cartelle del bingo natalizio da stampare per giocare in famiglia, a scuola o alle feste.", "Gioco del bingo a tema Natale in PDF da stampare: tante cartelle diverse, illustrate con simboli delle feste, pronte per giocare in famiglia, in classe o alla festa di Natale. Scarichi subito il file e lo stampi a casa."],
-  "en": ["Printable Christmas Bingo for Kids", "Christmas bingo cards to print and play at home, at school or at holiday parties.", "Christmas-themed bingo game in printable PDF: many different cards illustrated with holiday symbols, ready to play with family, in class or at a Christmas party. Download the file instantly and print at home."],
-  "foto": "flat lay product photo of printed Christmas bingo cards with a grid of cute holiday icons (tree, gift, star, snowman, candy cane) next to red and green bingo markers and a small pine sprig, on a white table, festive red and green palette, soft natural shadow, no readable text, no letters, no numbers, no logos"}
+ "4584610030": {
+  "cat": "bambini",
+  "pid": "bingo-di-natale-stampabile-per-bambini",
+  "slug_en": "printable-christmas-bingo-for-kids",
+  "it": [
+   "Bingo di Natale stampabile per bambini",
+   "Cartelle del bingo natalizio da stampare per giocare in famiglia, a scuola o alle feste.",
+   "Gioco del bingo a tema Natale in PDF da stampare: tante cartelle diverse, illustrate con simboli delle feste, pronte per giocare in famiglia, in classe o alla festa di Natale. Scarichi subito il file e lo stampi a casa."
+  ],
+  "en": [
+   "Printable Christmas Bingo for Kids",
+   "Christmas bingo cards to print and play at home, at school or at holiday parties.",
+   "Christmas-themed bingo game in printable PDF: many different cards illustrated with holiday symbols, ready to play with family, in class or at a Christmas party. Download the file instantly and print at home."
+  ],
+  "foto": "flat lay product photo of printed Christmas bingo cards with a grid of cute holiday icons (tree, gift, star, snowman, candy cane) next to red and green bingo markers and a small pine sprig, on a white table, festive red and green palette, soft natural shadow, no readable text, no letters, no numbers, no logos"
+ },
+ "1463948561": {
+  "cat": "bambini",
+  "pid": "schede-didattiche-scuola-infanzia-stampabili",
+  "slug_en": "preschool-learning-worksheets-printable",
+  "it": [
+   "Schede didattiche stampabili per la scuola dell'infanzia",
+   "Schede da stampare per imparare lettere, numeri, forme e colori giocando, per bambini dai 3 ai 6 anni.",
+   "Schede didattiche in PDF per la scuola dell'infanzia: lettere, numeri, forme e colori con attivita di tracciato, colorazione e abbinamento. Si stampano a casa e vanno bene per la scuola, per i centri estivi o per il gioco in famiglia."
+  ],
+  "en": [
+   "Printable Preschool Learning Worksheets",
+   "Printable worksheets to learn letters, numbers, shapes and colors through play, for ages 3 to 6.",
+   "Printable PDF worksheets for preschool: letters, numbers, shapes and colors with tracing, coloring and matching activities. Print them at home for school, summer camps or family play."
+  ],
+  "foto": "flat lay product photo of printed preschool worksheets with big cartoon letters, numbers and colorful shapes to color, next to chunky crayons, a pencil and a small wooden alphabet block, on a white table, bright primary colors, soft natural shadow, no readable text, no letters, no numbers, no logos"
+ }
 }

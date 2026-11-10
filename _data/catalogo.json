@@ -352,6 +352,26 @@
           "immagine": "assets/images/prodotti/bingo-di-natale-stampabile-per-bambini-en.webp?v=1"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "schede-didattiche-scuola-infanzia-stampabili",
+      "nome": "Schede didattiche stampabili per la scuola dell'infanzia",
+      "categoria": "bambini",
+      "prezzo_centesimi": 1000,
+      "descrizione": "Schede da stampare per imparare lettere, numeri, forme e colori giocando, per bambini dai 3 ai 6 anni.",
+      "descrizione_completa": "Schede didattiche in PDF per la scuola dell'infanzia: lettere, numeri, forme e colori con attivita di tracciato, colorazione e abbinamento. Si stampano a casa e vanno bene per la scuola, per i centri estivi o per il gioco in famiglia.",
+      "immagine": "assets/images/prodotti/schede-didattiche-scuola-infanzia-stampabili.webp?v=1",
+      "icona": "🧸",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Printable Preschool Learning Worksheets",
+          "descrizione": "Printable worksheets to learn letters, numbers, shapes and colors through play, for ages 3 to 6.",
+          "descrizione_completa": "Printable PDF worksheets for preschool: letters, numbers, shapes and colors with tracing, coloring and matching activities. Print them at home for school, summer camps or family play.",
+          "immagine": "assets/images/prodotti/schede-didattiche-scuola-infanzia-stampabili-en.webp?v=1"
+        }
+      }
     }
   ]
 }

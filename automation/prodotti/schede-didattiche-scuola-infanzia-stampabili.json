@@ -1,0 +1,28 @@
+{
+ "categoria": {
+  "id": "bambini",
+  "it": "Prodotti digitali per bambini",
+  "en": "Digital printables for kids",
+  "slug_en": "games-activities",
+  "icona": "🧸"
+ },
+ "slug_en": "preschool-learning-worksheets-printable",
+ "prezzo_centesimi": 1000,
+ "icona": "🧸",
+ "it": {
+  "nome": "Schede didattiche stampabili per la scuola dell'infanzia",
+  "descrizione": "Schede da stampare per imparare lettere, numeri, forme e colori giocando, per bambini dai 3 ai 6 anni.",
+  "descrizione_completa": "Schede didattiche in PDF per la scuola dell'infanzia: lettere, numeri, forme e colori con attivita di tracciato, colorazione e abbinamento. Si stampano a casa e vanno bene per la scuola, per i centri estivi o per il gioco in famiglia."
+ },
+ "en": {
+  "nome": "Printable Preschool Learning Worksheets",
+  "descrizione": "Printable worksheets to learn letters, numbers, shapes and colors through play, for ages 3 to 6.",
+  "descrizione_completa": "Printable PDF worksheets for preschool: letters, numbers, shapes and colors with tracing, coloring and matching activities. Print them at home for school, summer camps or family play."
+ },
+ "foto": {
+  "cosa": "Printable Preschool Learning Worksheets",
+  "originale": "flat lay product photo of printed preschool worksheets with big cartoon letters, numbers and colorful shapes to color, next to chunky crayons, a pencil and a small wooden alphabet block, on a white table, bright primary colors, soft natural shadow, no readable text, no letters, no numbers, no logos",
+  "it": "",
+  "en": ""
+ }
+}
