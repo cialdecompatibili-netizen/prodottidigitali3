@@ -332,6 +332,26 @@
           "immagine": "assets/images/prodotti/escape-room-stampabile-biblioteca-misteriosa-en.webp?v=1"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "bingo-di-natale-stampabile-per-bambini",
+      "nome": "Bingo di Natale stampabile per bambini",
+      "categoria": "bambini",
+      "prezzo_centesimi": 1000,
+      "descrizione": "Cartelle del bingo natalizio da stampare per giocare in famiglia, a scuola o alle feste.",
+      "descrizione_completa": "Gioco del bingo a tema Natale in PDF da stampare: tante cartelle diverse, illustrate con simboli delle feste, pronte per giocare in famiglia, in classe o alla festa di Natale. Scarichi subito il file e lo stampi a casa.",
+      "immagine": "assets/images/prodotti/bingo-di-natale-stampabile-per-bambini.webp?v=1",
+      "icona": "🧸",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Printable Christmas Bingo for Kids",
+          "descrizione": "Christmas bingo cards to print and play at home, at school or at holiday parties.",
+          "descrizione_completa": "Christmas-themed bingo game in printable PDF: many different cards illustrated with holiday symbols, ready to play with family, in class or at a Christmas party. Download the file instantly and print at home.",
+          "immagine": "assets/images/prodotti/bingo-di-natale-stampabile-per-bambini-en.webp?v=1"
+        }
+      }
     }
   ]
 }
