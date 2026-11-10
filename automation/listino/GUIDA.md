@@ -31,3 +31,33 @@ planner, budget, habit, matrimonio, bambini, pasti, uncinetto, cv (nomi IT/EN in
 ## Flusso automatico (usare questo)
 - `python automation\listino\auto.py N` fa tutto (vedi docstring in auto.py). Niente browser Etsy: nome/prezzo/categoria vengono da grezzo.json.
 - Per rinfrescare le best seller: raccogli.py. Voci curate a mano: originali.json (+ originali.py).
+
+## Stato al 10/11/2026 (sera) - APPUNTI PER RIPARTIRE
+**Online: 12 prodotti** (3 planner storici + lotto originali). Fatti dal listino: agenda-2027-minimal-journal, organizer-finanze-abitudini-google-sheets-scuro, quaderno-attivita-prescolari-stampabile, menu-settimanale-lista-spesa-sheets, raccolta-schemi-uncinetto-animali, curriculum-moderno-ats-word-docs, kit-tracker-2027-stampabile, budget-planner-mensile-stampabile, inviti-nozze-botanici-modificabili-canva, escape-room-stampabile-biblioteca-misteriosa, bingo-di-natale-stampabile-per-bambini, schede-didattiche-scuola-infanzia-stampabili. Restano circa 90 nel listino.
+Sito: https://cialdecompatibili-netizen.github.io/prodottidigitali3/ (pagina prodotto: /negozio/<id>/ ; categoria bambini: /negozio/categoria/bambini/).
+
+### Regole decise
+- Prodotti ORIGINALI ispirati ai best seller Etsy, mai copie: testi nostri, foto nostra (Gemini da zero, senza testo, uguale IT/EN). Niente foto/firma di altri venditori.
+- Prezzo = 3x acquisto Etsy, tondo (comune.prezzo.vendita). Mai ,99.
+- Categoria bambini rinominata "Prodotti digitali per bambini" / "Digital printables for kids" (id bambini, slug_en games-activities, icona 🧸).
+- Licenza: molti file Etsy sono "solo uso personale". Le descrizioni promettono contenuti: il file consegnato al cliente deve corrispondere (DA VERIFICARE, non ancora controllato).
+
+### Comandi (tutto in Python, un solo comando)
+- `python automation\listino\auto.py N` -> pubblica N prodotti: prima il lotto manuale in sospeso (lotto_orig.json), poi i prossimi del listino con testi in bozza automatica (bozza:true, generici ma corretti).
+- `python automation\listino\auto.py --listing <ID_etsy>` -> un prodotto preciso; se c'e' la voce in `curati.json` (chiave = ID listing) usa i testi curati a mano.
+- Lanciare in background con log (Start-Process + RedirectStandardOutput su auto.log) per non bloccare il tool; leggere auto.log dopo ~2 min per prodotto.
+- Alla fine: stato.json, LISTINO.md, ULTIMO_LOTTO.md (link), anteprima.png (foto del lotto: guardarla prima di dire fatto), push automatico.
+- Protezioni: timeout 8 min per prodotto (uccide l'albero di processi se Gemini si blocca) + 1 riprova, stop dopo 3 errori di fila. Rilanciabile, salta i 'fatto'.
+- File: auto.py (motore), curati.json (testi a mano per listing), originali.json/originali.py (vecchio lotto manuale), lancia.py (wrapper), rimuovi_prodotto.py (toglie un prodotto sbagliato), stato.json.
+
+### Costi / crediti Gemini
+- 1 foto per prodotto (prima 2-3). Finestra crediti 5 ore: conviene lotti da 10-15. Stato: `python C:\Users\mirco\Desktop\gemini_auto\img.py --crediti` o CREDITI.md.
+- Se Gemini si blocca: il processo img.py resta appeso (successo con il curriculum); ora il timeout lo gestisce.
+
+### Idee non ancora fatte (ottimizzazioni)
+- Una sola sessione Gemini per tutto il lotto (foto generate in un'unica chiamata img.py --lista, poi nuovo_prodotto salta la generazione se il webp esiste): circa -30% tempo sui lotti da 10+.
+- Un solo push a fine lotto invece di uno per prodotto.
+- Bambini: restano nel listino pacchetto educativo PLR (da evitare: licenza), attivita bibliche (nicchia), giochi del Ringraziamento (USA, poco utile in Italia).
+
+### Prossimo passo
+Attendere indicazioni di Mirco su quale lotto lanciare (es. `auto.py 10` a giro tra le categorie, oppure una categoria sola).
