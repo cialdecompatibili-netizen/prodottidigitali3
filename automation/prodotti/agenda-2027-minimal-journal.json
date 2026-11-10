@@ -1,0 +1,15 @@
+{
+ "categoria": {"id": "planner", "it": "Planner e agende stampabili", "en": "Printable planners and agendas", "slug_en": "planners", "icona": "\ud83d\udcc5"},
+ "slug_en": "minimal-journal-planner-2027",
+ "prezzo_centesimi": 2500,
+ "icona": "\ud83d\udcc5",
+ "it": {"nome": "Agenda 2027 minimal: planner e bullet journal stampabile",
+  "descrizione": "Agenda e bullet journal 2027 dal tratto essenziale, in PDF da stampare: calendari, pagine settimanali e tracker.",
+  "descrizione_completa": "Agenda 2027 dal design pulito e minimale, in PDF da stampare a casa. Un unico pacchetto che unisce planner e bullet journal: calendari mensili, pagine settimanali, tracker di abitudini e di umore. Scarichi subito il file e lo stampi in formato A4 o A5."},
+ "en": {"nome": "Minimal 2027 Planner and Bullet Journal Printable",
+  "descrizione": "Clean 2027 planner and bullet journal in printable PDF: monthly calendars, weekly pages and trackers.",
+  "descrizione_completa": "Clean, minimal 2027 planner in a printable PDF to print at home. One package that combines planner and bullet journal: monthly calendars, weekly pages, habit and mood trackers. Download instantly and print on A4 or A5."},
+ "foto": {"cosa": "minimal 2027 planner",
+  "originale": "flat lay product photo of a printed minimalist planner and bullet journal: an open ring-bound A5 notebook showing a weekly spread with a simple grid and dotted lines, next to a few loose printed sheets (monthly calendar grid, habit tracker grid, mood tracker circles), a pen and a small sprig of dried leaves, soft sage green and warm cream palette, gentle natural shadow",
+  "it": "", "en": ""}
+}

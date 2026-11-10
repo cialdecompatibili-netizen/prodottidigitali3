@@ -141,6 +141,15 @@ def render_parete(p, l, anno=2027):
 
 def main(pid, solo=None, push=True):
     p = PRODOTTI[pid]; orig = os.path.join(R, 'automation', 'base', pid + '-orig.jpg'); out = os.path.join(R, 'assets', 'images', 'prodotti')
+    if p.get('originale'):  # FOTO NOSTRA (non ricavata da Etsy): immagine creata da zero con gemini_auto\img.py, senza testo, uguale per IT e EN
+        import csv, shutil
+        lista = os.path.join(R, 'automation', 'base', pid + '-lista.csv')
+        with open(lista, 'w', encoding='utf-8', newline='') as f: csv.writer(f, delimiter=';').writerow([pid, p['originale'], 'prodotto'])
+        EX = 'ABSOLUTELY NO TEXT of any kind: no letters, no numbers, no words, no logos, no brand names, no watermark. Pages and covers blank or with abstract lines only. Plain pure white #FFFFFF background.'
+        subprocess.run([sys.executable, r'C:\Users\mirco\Desktop\gemini_auto\img.py', '--lista', lista, '--out', out, '--extra', EX], cwd=R, text=True, encoding='utf-8', errors='replace')
+        if not os.path.exists(os.path.join(out, pid + '.webp')): print('Gemini KO originale'); return
+        shutil.copyfile(os.path.join(out, pid + '.webp'), os.path.join(out, pid + '-en.webp')); print('ok originale')
+        solo = '-'
     for l, (nome, suf) in LINGUE.items():
         if solo and l != solo: continue
         if p.get('overlay'):

@@ -75,21 +75,21 @@
     },
     {
       "tipo": "digitale",
-      "id": "pacchetto-diario-2027-agenda-stampabile-bullet-2391",
-      "nome": "Pacchetto diario e agenda 2027 stampabile PDF",
+      "id": "agenda-2027-minimal-journal",
+      "nome": "Agenda 2027 minimal: planner e bullet journal stampabile",
       "categoria": "planner",
       "prezzo_centesimi": 2500,
-      "descrizione": "Agenda e bullet journal 2027 in PDF A4 e A5, con tracker annuali per abitudini, umore, fitness e lettura.",
-      "descrizione_completa": "Pacchetto diario 2027 in PDF stampabile, formati A4 e A5: agenda e bullet journal in un unico download, con tracker annuali per abitudini, umore, fitness e lettura. Scarichi subito i file e li stampi a casa.",
-      "immagine": "assets/images/prodotti/pacchetto-diario-2027-agenda-stampabile-bullet-2391.webp?v=1",
+      "descrizione": "Agenda e bullet journal 2027 dal tratto essenziale, in PDF da stampare: calendari, pagine settimanali e tracker.",
+      "descrizione_completa": "Agenda 2027 dal design pulito e minimale, in PDF da stampare a casa. Un unico pacchetto che unisce planner e bullet journal: calendari mensili, pagine settimanali, tracker di abitudini e di umore. Scarichi subito il file e lo stampi in formato A4 o A5.",
+      "immagine": "assets/images/prodotti/agenda-2027-minimal-journal.webp?v=1",
       "icona": "📅",
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Printable 2027 Journal and Planner Bundle PDF",
-          "descrizione": "2027 planner and bullet journal in A4 and A5 PDF, with yearly habit, mood, fitness and reading trackers.",
-          "descrizione_completa": "Printable 2027 journal bundle in A4 and A5 PDF: planner and bullet journal in a single download, with yearly habit, mood, fitness and reading trackers. Download instantly and print at home.",
-          "immagine": "assets/images/prodotti/pacchetto-diario-2027-agenda-stampabile-bullet-2391-en.webp?v=1"
+          "nome": "Minimal 2027 Planner and Bullet Journal Printable",
+          "descrizione": "Clean 2027 planner and bullet journal in printable PDF: monthly calendars, weekly pages and trackers.",
+          "descrizione_completa": "Clean, minimal 2027 planner in a printable PDF to print at home. One package that combines planner and bullet journal: monthly calendars, weekly pages, habit and mood trackers. Download instantly and print on A4 or A5.",
+          "immagine": "assets/images/prodotti/agenda-2027-minimal-journal-en.webp?v=1"
         }
       }
     }
