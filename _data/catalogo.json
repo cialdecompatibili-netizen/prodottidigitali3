@@ -40,6 +40,16 @@
           "nome": "Meal planners and kitchen"
         }
       }
+    },
+    {
+      "nome": "Schemi uncinetto PDF",
+      "id": "uncinetto",
+      "icona": "🧶",
+      "tr": {
+        "en": {
+          "nome": "Crochet patterns PDF"
+        }
+      }
     }
   ],
   "prodotti": [
@@ -180,6 +190,26 @@
           "descrizione": "Spreadsheet to plan the week's meals and build your grocery list.",
           "descrizione_completa": "Spreadsheet to organize the weekly menu, collect favorite recipes and prepare the grocery list. Works on Google Sheets and Excel.",
           "immagine": "assets/images/prodotti/menu-settimanale-lista-spesa-sheets-en.webp?v=1"
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "raccolta-schemi-uncinetto-animali",
+      "nome": "Raccolta di schemi uncinetto: animali amigurumi in PDF",
+      "categoria": "uncinetto",
+      "prezzo_centesimi": 1500,
+      "descrizione": "Schemi all'uncinetto in PDF per piccoli animali amigurumi, adatti anche ai principianti.",
+      "descrizione_completa": "Raccolta di schemi in PDF per realizzare animaletti amigurumi all'uncinetto, con istruzioni passo passo adatte anche a chi inizia. Scarichi subito i file.",
+      "immagine": "assets/images/prodotti/raccolta-schemi-uncinetto-animali.webp?v=1",
+      "icona": "🧶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Crochet Animal Amigurumi Pattern Collection PDF",
+          "descrizione": "Crochet patterns in PDF for small amigurumi animals, beginner friendly.",
+          "descrizione_completa": "Collection of PDF patterns to crochet small amigurumi animals, with step-by-step instructions suited to beginners. Download the files instantly.",
+          "immagine": "assets/images/prodotti/raccolta-schemi-uncinetto-animali-en.webp?v=1"
         }
       }
     }
