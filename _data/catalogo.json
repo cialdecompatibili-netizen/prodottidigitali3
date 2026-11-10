@@ -242,6 +242,26 @@
           "immagine": "assets/images/prodotti/curriculum-moderno-ats-word-docs-en.webp?v=1"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "kit-tracker-2027-stampabile",
+      "nome": "Kit tracker 2027 stampabile: abitudini, spese e letture",
+      "categoria": "planner",
+      "prezzo_centesimi": 3000,
+      "descrizione": "Tracker stampabili per il 2027 per abitudini, spese e libri letti, in PDF A4 e A5.",
+      "descrizione_completa": "Kit di tracker stampabili per il 2027 in PDF, formati A4 e A5: abitudini quotidiane, spese e libri letti. Li stampi e li inserisci nella tua agenda o nel bullet journal.",
+      "immagine": "assets/images/prodotti/kit-tracker-2027-stampabile.webp?v=1",
+      "icona": "📅",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Printable 2027 Trackers Kit: Habits, Spending and Reading",
+          "descrizione": "Printable 2027 trackers for habits, spending and books read, in A4 and A5 PDF.",
+          "descrizione_completa": "Kit of printable 2027 trackers in A4 and A5 PDF: daily habits, spending and books read. Print them and add them to your planner or bullet journal.",
+          "immagine": "assets/images/prodotti/kit-tracker-2027-stampabile-en.webp?v=1"
+        }
+      }
     }
   ]
 }
