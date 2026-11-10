@@ -262,6 +262,26 @@
           "immagine": "assets/images/prodotti/kit-tracker-2027-stampabile-en.webp?v=1"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "budget-planner-mensile-stampabile",
+      "nome": "Budget planner mensile stampabile: entrate, spese e risparmi",
+      "categoria": "budget",
+      "prezzo_centesimi": 4000,
+      "descrizione": "Pagine PDF da stampare per tenere sotto controllo entrate, spese e risparmi ogni mese.",
+      "descrizione_completa": "Budget planner in PDF da stampare: pagine mensili per entrate, spese fisse e variabili e obiettivi di risparmio, con riepilogo annuale. Ideale da tenere in un raccoglitore.",
+      "immagine": "assets/images/prodotti/budget-planner-mensile-stampabile.webp?v=1",
+      "icona": "💶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Printable Monthly Budget Planner: Income, Expenses and Savings",
+          "descrizione": "Printable PDF pages to track income, expenses and savings every month.",
+          "descrizione_completa": "Printable PDF budget planner: monthly pages for income, fixed and variable expenses and savings goals, with a yearly summary. Ideal for a binder.",
+          "immagine": "assets/images/prodotti/budget-planner-mensile-stampabile-en.webp?v=1"
+        }
+      }
     }
   ]
 }
