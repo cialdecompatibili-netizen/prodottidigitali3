@@ -1,4 +1,4 @@
-﻿# GUIDA listino prodotti digitali (prodottidigitali3)
+# GUIDA listino prodotti digitali (prodottidigitali3)
 
 Obiettivo: riempire lo shop con i best seller Etsy, dal piu' venduto in giu', a lotti (prova 1 = primi 10). Tutto a step, ogni step e' uno script.
 
@@ -23,7 +23,7 @@ planner, budget, habit, matrimonio, bambini, pasti, uncinetto, cv (nomi IT/EN in
 - Ricerche Etsy: `comune.etsy.cerca` apre un browser VISIBILE (mai headless), cache in `rivendita etsy\ricerche`; ~15 s a ricerca, un browser alla volta, poche richieste.
 - Il listino puo' contenere varianti dello stesso prodotto con ID diversi: guardare titolo e foto prima di duplicare.
 - Foto: fedeli all'originale (stesso prodotto, sfondo bianco, testi tradotti IT/EN). Planner/calendari con date: `render=True` in `foto_digitale.py`, mai Gemini per tabelle/numeri.
-- Prezzi in `prezzo_centesimi`; prezzo vendita tondo (mai ,99).
+- Prezzi in `prezzo_centesimi`; prezzo vendita fisso 1,99 euro = prezzo_centesimi 199.
 - Mai riscrivere catalogo.json con PowerShell (BOM): solo Python json.
 - Verifica online la fa Mirco dopo il push. Guardare la foto IT prima di dire fatto.
 - Licenza: molti file Etsy sono "solo uso personale". Prima di vendere un prodotto controllare che l'annuncio non vieti la rivendita.
@@ -38,7 +38,7 @@ Sito: https://cialdecompatibili-netizen.github.io/prodottidigitali3/ (pagina pro
 
 ### Regole decise
 - Prodotti ORIGINALI ispirati ai best seller Etsy, mai copie: testi nostri, foto nostra (Gemini da zero, senza testo, uguale IT/EN). Niente foto/firma di altri venditori.
-- Prezzo = 3x acquisto Etsy, tondo (comune.prezzo.vendita). Mai ,99.
+- Prezzo = 1,99 euro fisso (prezzo_centesimi = 199, forzato in nuovo_prodotto.py).
 - Categoria bambini rinominata "Prodotti digitali per bambini" / "Digital printables for kids" (id bambini, slug_en games-activities, icona 🧸).
 - Licenza: molti file Etsy sono "solo uso personale". Le descrizioni promettono contenuti: il file consegnato al cliente deve corrispondere (DA VERIFICARE, non ancora controllato).
 
