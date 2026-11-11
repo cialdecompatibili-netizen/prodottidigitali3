@@ -1,0 +1,28 @@
+{
+ "categoria": {
+  "id": "uncinetto",
+  "it": "Schemi uncinetto PDF",
+  "en": "Crochet patterns PDF",
+  "slug_en": "crochet-patterns",
+  "icona": "🧶"
+ },
+ "slug_en": "crochet-teddy-bear-amigurumi-pattern-pdf",
+ "prezzo_centesimi": 2500,
+ "icona": "🧶",
+ "it": {
+  "nome": "Schema uncinetto orsacchiotto amigurumi in PDF",
+  "descrizione": "Schema in PDF: orsacchiotto amigurumi all'uncinetto, adatto anche a chi inizia.",
+  "descrizione_completa": "Schema in PDF da scaricare subito: orsacchiotto amigurumi all'uncinetto, adatto anche a chi inizia. Istruzioni passo passo, chiare e complete."
+ },
+ "en": {
+  "nome": "Crochet Teddy Bear Amigurumi Pattern PDF",
+  "descrizione": "PDF pattern: crochet teddy bear amigurumi, beginner friendly.",
+  "descrizione_completa": "PDF pattern to download instantly: crochet teddy bear amigurumi, beginner friendly. Clear, complete step-by-step instructions."
+ },
+ "foto": {
+  "cosa": "Crochet Teddy Bear Amigurumi Pattern PDF",
+  "originale": "a finished crochet teddy bear amigurumi with a ball of yarn and a crochet hook, on a soft pastel background, soft natural shadow, bright airy palette, no readable text, no letters, no logos",
+  "it": "",
+  "en": ""
+ }
+}

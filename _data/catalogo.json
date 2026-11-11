@@ -512,6 +512,26 @@
           "immagine": "assets/images/prodotti/schema-uncinetto-gioco-di-memoria-con-tartarughe-in-pdf-en.webp?v=1"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "schema-uncinetto-orsacchiotto-amigurumi-in-pdf",
+      "nome": "Schema uncinetto orsacchiotto amigurumi in PDF",
+      "categoria": "uncinetto",
+      "prezzo_centesimi": 2500,
+      "descrizione": "Schema in PDF: orsacchiotto amigurumi all'uncinetto, adatto anche a chi inizia.",
+      "descrizione_completa": "Schema in PDF da scaricare subito: orsacchiotto amigurumi all'uncinetto, adatto anche a chi inizia. Istruzioni passo passo, chiare e complete.",
+      "immagine": "assets/images/prodotti/schema-uncinetto-orsacchiotto-amigurumi-in-pdf.webp?v=1",
+      "icona": "🧶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Crochet Teddy Bear Amigurumi Pattern PDF",
+          "descrizione": "PDF pattern: crochet teddy bear amigurumi, beginner friendly.",
+          "descrizione_completa": "PDF pattern to download instantly: crochet teddy bear amigurumi, beginner friendly. Clear, complete step-by-step instructions.",
+          "immagine": "assets/images/prodotti/schema-uncinetto-orsacchiotto-amigurumi-in-pdf-en.webp?v=1"
+        }
+      }
     }
   ]
 }
