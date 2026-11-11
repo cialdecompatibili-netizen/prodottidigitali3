@@ -61,3 +61,7 @@ Sito: https://cialdecompatibili-netizen.github.io/prodottidigitali3/ (pagina pro
 
 ### Prossimo passo
 Attendere indicazioni di Mirco su quale lotto lanciare (es. `auto.py 10` a giro tra le categorie, oppure una categoria sola).
+
+### REGOLA TITOLI (11/11/2026)
+- Il titolo DEVE descrivere lo specifico prodotto (soggetto + formato, es. 'Schema uncinetto orsacchiotto amigurumi in PDF'), mai aggettivi generici tipo essenziale/elegante/colorato. Mai nomi di autori/venditori.
+- Prima di lanciare auto.py su un listing va SEMPRE creata la voce in curati.json (titolo, descrizioni, prompt foto del soggetto reale). La bozza automatica generica non va usata per pubblicare.
