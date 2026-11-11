@@ -432,6 +432,26 @@
           "immagine": "assets/images/prodotti/pacchetto-schemi-uncinetto-polpo-amigurumi-in-pdf-en.webp?v=1"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "schema-uncinetto-sciarpa-a-forma-di-gatto-in-pdf",
+      "nome": "Schema uncinetto sciarpa a forma di gatto in PDF",
+      "categoria": "uncinetto",
+      "prezzo_centesimi": 1500,
+      "descrizione": "Schema in PDF: sciarpa a forma di gatto lavorata all'uncinetto.",
+      "descrizione_completa": "Schema in PDF da scaricare subito: sciarpa a forma di gatto lavorata all'uncinetto. Istruzioni passo passo, chiare e complete.",
+      "immagine": "assets/images/prodotti/schema-uncinetto-sciarpa-a-forma-di-gatto-in-pdf.webp?v=1",
+      "icona": "🧶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Crochet Cat Scarf Pattern PDF",
+          "descrizione": "PDF pattern: cat-shaped scarf worked in crochet.",
+          "descrizione_completa": "PDF pattern to download instantly: cat-shaped scarf worked in crochet. Clear, complete step-by-step instructions.",
+          "immagine": "assets/images/prodotti/schema-uncinetto-sciarpa-a-forma-di-gatto-in-pdf-en.webp?v=1"
+        }
+      }
     }
   ]
 }

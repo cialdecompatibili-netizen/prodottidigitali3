@@ -1,0 +1,28 @@
+{
+ "categoria": {
+  "id": "uncinetto",
+  "it": "Schemi uncinetto PDF",
+  "en": "Crochet patterns PDF",
+  "slug_en": "crochet-patterns",
+  "icona": "🧶"
+ },
+ "slug_en": "crochet-cat-scarf-pattern-pdf",
+ "prezzo_centesimi": 1500,
+ "icona": "🧶",
+ "it": {
+  "nome": "Schema uncinetto sciarpa a forma di gatto in PDF",
+  "descrizione": "Schema in PDF: sciarpa a forma di gatto lavorata all'uncinetto.",
+  "descrizione_completa": "Schema in PDF da scaricare subito: sciarpa a forma di gatto lavorata all'uncinetto. Istruzioni passo passo, chiare e complete."
+ },
+ "en": {
+  "nome": "Crochet Cat Scarf Pattern PDF",
+  "descrizione": "PDF pattern: cat-shaped scarf worked in crochet.",
+  "descrizione_completa": "PDF pattern to download instantly: cat-shaped scarf worked in crochet. Clear, complete step-by-step instructions."
+ },
+ "foto": {
+  "cosa": "Crochet Cat Scarf Pattern PDF",
+  "originale": "a finished crochet cat-shaped scarf folded neatly, with a ball of yarn, on a soft pastel background, soft natural shadow, bright airy palette, no readable text, no letters, no logos",
+  "it": "",
+  "en": ""
+ }
+}
