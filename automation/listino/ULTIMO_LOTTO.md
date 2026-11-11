@@ -1,4 +1,4 @@
-# Ultimo lotto (11/11/2026 18:49)
+# Ultimo lotto (11/11/2026 18:50)
 
-- schema-uncinetto-sciarpa-a-forma-di-gatto-in-pdf
-  - IT https://cialdecompatibili-netizen.github.io/prodottidigitali3/negozio/schema-uncinetto-sciarpa-a-forma-di-gatto-in-pdf/
+- schema-uncinetto-gamberetto-amigurumi-senza-cuciture-in-pdf
+  - IT https://cialdecompatibili-netizen.github.io/prodottidigitali3/negozio/schema-uncinetto-gamberetto-amigurumi-senza-cuciture-in-pdf/
