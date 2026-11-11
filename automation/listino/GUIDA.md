@@ -74,3 +74,14 @@ Modello: renzoferrucci `_data/foto_prompt.json` = un prompt per prodotto con "as
 - L'aspetto descrive il soggetto reale dall'annuncio (es. amigurumi orsacchiotto: colore, filato, dimensione, posa), nostro e mai copiato (no foto/firma altrui). Digitali: mostrare il PDF/foglio aperto su bianco; planner/tabelle con date o numeri: `render=True` in `foto_digitale.py`, mai Gemini.
 - Stessa foto IT/EN. Prima di dire "fatto" guardare anteprima.png: soggetto giusto + sfondo bianco, altrimenti rigenerare.
 - Procedura: voce in `curati.json` -> 1 prodotto PILOTA -> controllo foto -> solo dopo il resto del lotto.
+
+
+### PATTERN APPROVATO - categoria uncinetto (11/11/2026, pilota orsacchiotto, "perfetto" da Mirco)
+Riferimento: voce `1871649891` in `curati.json` (schema-uncinetto-orsacchiotto-amigurumi-in-pdf). Per ogni nuovo schema uncinetto copiare questa struttura cambiando solo il soggetto:
+- `cat`: `uncinetto`; prezzo 1,99 euro (prezzo_centesimi = 199).
+- Titolo IT: `Schema uncinetto <soggetto> in PDF` (es. Schema uncinetto orsacchiotto amigurumi in PDF). Titolo EN: `Crochet <Subject> Pattern PDF`. `slug_en`: `crochet-<subject>-pattern-pdf`.
+- Breve IT: `Schema in PDF: <soggetto> all'uncinetto, adatto anche a chi inizia.` / EN: `PDF pattern: crochet <subject>, beginner friendly.`
+- Descrizione IT: `Schema in PDF da scaricare subito: <soggetto> all'uncinetto, adatto anche a chi inizia. Istruzioni passo passo, chiare e complete.` / EN: `PDF pattern to download instantly: crochet <subject>, beginner friendly. Clear, complete step-by-step instructions.`
+- Foto (campo `foto`): `a finished handmade crochet <soggetto> in <colore/filato>, <posa>, <dettagli: orecchie, viso, punti ben visibili>. Clean e-commerce catalog product photo, pure white background, soft studio light, photorealistic, whole item fully visible, centered, no text, no letters, no logo, no watermark`.
+- Sfondo bianco, un solo oggetto intero, niente scene/persone/testo; stessa foto IT/EN.
+- Flusso: voce in `curati.json` -> `python automation\listino\auto.py --listing <ID>` (in background con log) -> guardare `anteprima.png` -> poi il resto del lotto.
