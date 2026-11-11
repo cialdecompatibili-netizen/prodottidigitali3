@@ -1,0 +1,28 @@
+{
+ "categoria": {
+  "id": "uncinetto",
+  "it": "Schemi uncinetto PDF",
+  "en": "Crochet patterns PDF",
+  "slug_en": "crochet-patterns",
+  "icona": "🧶"
+ },
+ "slug_en": "crochet-octopus-amigurumi-pattern-bundle-pdf",
+ "prezzo_centesimi": 5000,
+ "icona": "🧶",
+ "it": {
+  "nome": "Pacchetto schemi uncinetto polpo amigurumi in PDF",
+  "descrizione": "Schema in PDF: pacchetto di schemi per polpi amigurumi all'uncinetto.",
+  "descrizione_completa": "Schema in PDF da scaricare subito: pacchetto di schemi per polpi amigurumi all'uncinetto. Istruzioni passo passo, chiare e complete."
+ },
+ "en": {
+  "nome": "Crochet Octopus Amigurumi Pattern Bundle PDF",
+  "descrizione": "PDF pattern: bundle of crochet octopus amigurumi patterns.",
+  "descrizione_completa": "PDF pattern to download instantly: bundle of crochet octopus amigurumi patterns. Clear, complete step-by-step instructions."
+ },
+ "foto": {
+  "cosa": "Crochet Octopus Amigurumi Pattern Bundle PDF",
+  "originale": "finished crochet octopus amigurumi toys in a few colors with a ball of yarn, on a soft pastel background, soft natural shadow, bright airy palette, no readable text, no letters, no logos",
+  "it": "",
+  "en": ""
+ }
+}

@@ -412,6 +412,26 @@
           "immagine": "assets/images/prodotti/schema-uncinetto-gatto-a-pagnotta-amigurumi-a-bassa-cucitura-in-pdf-en.webp?v=1"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "pacchetto-schemi-uncinetto-polpo-amigurumi-in-pdf",
+      "nome": "Pacchetto schemi uncinetto polpo amigurumi in PDF",
+      "categoria": "uncinetto",
+      "prezzo_centesimi": 5000,
+      "descrizione": "Schema in PDF: pacchetto di schemi per polpi amigurumi all'uncinetto.",
+      "descrizione_completa": "Schema in PDF da scaricare subito: pacchetto di schemi per polpi amigurumi all'uncinetto. Istruzioni passo passo, chiare e complete.",
+      "immagine": "assets/images/prodotti/pacchetto-schemi-uncinetto-polpo-amigurumi-in-pdf.webp?v=1",
+      "icona": "🧶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Crochet Octopus Amigurumi Pattern Bundle PDF",
+          "descrizione": "PDF pattern: bundle of crochet octopus amigurumi patterns.",
+          "descrizione_completa": "PDF pattern to download instantly: bundle of crochet octopus amigurumi patterns. Clear, complete step-by-step instructions.",
+          "immagine": "assets/images/prodotti/pacchetto-schemi-uncinetto-polpo-amigurumi-in-pdf-en.webp?v=1"
+        }
+      }
     }
   ]
 }
