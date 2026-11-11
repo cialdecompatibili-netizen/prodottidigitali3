@@ -452,6 +452,26 @@
           "immagine": "assets/images/prodotti/schema-uncinetto-sciarpa-a-forma-di-gatto-in-pdf-en.webp?v=1"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "schema-uncinetto-gamberetto-amigurumi-senza-cuciture-in-pdf",
+      "nome": "Schema uncinetto gamberetto amigurumi senza cuciture in PDF",
+      "categoria": "uncinetto",
+      "prezzo_centesimi": 2000,
+      "descrizione": "Schema in PDF: gamberetto amigurumi all'uncinetto, lavorato senza cuciture.",
+      "descrizione_completa": "Schema in PDF da scaricare subito: gamberetto amigurumi all'uncinetto, lavorato senza cuciture. Istruzioni passo passo, chiare e complete.",
+      "immagine": "assets/images/prodotti/schema-uncinetto-gamberetto-amigurumi-senza-cuciture-in-pdf.webp?v=1",
+      "icona": "🧶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "No-Sew Crochet Shrimp Amigurumi Pattern PDF",
+          "descrizione": "PDF pattern: crochet shrimp amigurumi, worked without sewing.",
+          "descrizione_completa": "PDF pattern to download instantly: crochet shrimp amigurumi, worked without sewing. Clear, complete step-by-step instructions.",
+          "immagine": "assets/images/prodotti/schema-uncinetto-gamberetto-amigurumi-senza-cuciture-in-pdf-en.webp?v=1"
+        }
+      }
     }
   ]
 }
