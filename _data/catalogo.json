@@ -492,6 +492,26 @@
           "immagine": "assets/images/prodotti/schema-uncinetto-serpente-senza-cuciture-facile-per-principianti-in-pd-en.webp?v=1"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "schema-uncinetto-gioco-di-memoria-con-tartarughe-in-pdf",
+      "nome": "Schema uncinetto gioco di memoria con tartarughe in PDF",
+      "categoria": "uncinetto",
+      "prezzo_centesimi": 3000,
+      "descrizione": "Schema in PDF: gioco di memoria con tartarughe da realizzare all'uncinetto.",
+      "descrizione_completa": "Schema in PDF da scaricare subito: gioco di memoria con tartarughe da realizzare all'uncinetto. Istruzioni passo passo, chiare e complete.",
+      "immagine": "assets/images/prodotti/schema-uncinetto-gioco-di-memoria-con-tartarughe-in-pdf.webp?v=1",
+      "icona": "🧶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Crochet Turtle Memory Game Pattern PDF",
+          "descrizione": "PDF pattern: memory game with crochet turtles.",
+          "descrizione_completa": "PDF pattern to download instantly: memory game with crochet turtles. Clear, complete step-by-step instructions.",
+          "immagine": "assets/images/prodotti/schema-uncinetto-gioco-di-memoria-con-tartarughe-in-pdf-en.webp?v=1"
+        }
+      }
     }
   ]
 }

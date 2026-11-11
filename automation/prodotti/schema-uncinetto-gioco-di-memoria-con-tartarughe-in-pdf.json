@@ -1,0 +1,28 @@
+{
+ "categoria": {
+  "id": "uncinetto",
+  "it": "Schemi uncinetto PDF",
+  "en": "Crochet patterns PDF",
+  "slug_en": "crochet-patterns",
+  "icona": "🧶"
+ },
+ "slug_en": "crochet-turtle-memory-game-pattern-pdf",
+ "prezzo_centesimi": 3000,
+ "icona": "🧶",
+ "it": {
+  "nome": "Schema uncinetto gioco di memoria con tartarughe in PDF",
+  "descrizione": "Schema in PDF: gioco di memoria con tartarughe da realizzare all'uncinetto.",
+  "descrizione_completa": "Schema in PDF da scaricare subito: gioco di memoria con tartarughe da realizzare all'uncinetto. Istruzioni passo passo, chiare e complete."
+ },
+ "en": {
+  "nome": "Crochet Turtle Memory Game Pattern PDF",
+  "descrizione": "PDF pattern: memory game with crochet turtles.",
+  "descrizione_completa": "PDF pattern to download instantly: memory game with crochet turtles. Clear, complete step-by-step instructions."
+ },
+ "foto": {
+  "cosa": "Crochet Turtle Memory Game Pattern PDF",
+  "originale": "a set of small crochet turtles in different colors laid out as a memory game, on a soft pastel background, soft natural shadow, bright airy palette, no readable text, no letters, no logos",
+  "it": "",
+  "en": ""
+ }
+}

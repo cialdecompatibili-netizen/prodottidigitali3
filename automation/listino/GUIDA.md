@@ -65,3 +65,12 @@ Attendere indicazioni di Mirco su quale lotto lanciare (es. `auto.py 10` a giro 
 ### REGOLA TITOLI (11/11/2026)
 - Il titolo DEVE descrivere lo specifico prodotto (soggetto + formato, es. 'Schema uncinetto orsacchiotto amigurumi in PDF'), mai aggettivi generici tipo essenziale/elegante/colorato. Mai nomi di autori/venditori.
 - Prima di lanciare auto.py su un listing va SEMPRE creata la voce in curati.json (titolo, descrizioni, prompt foto del soggetto reale). La bozza automatica generica non va usata per pubblicare.
+
+### REGOLA FOTO + COERENZA (11/11/2026) - QUESTA E' LA LOGICA GIUSTA (stile renzoferrucci)
+Modello: renzoferrucci `_data/foto_prompt.json` = un prompt per prodotto con "aspetto" concreto e specifico (cosa, colore, dettagli, inquadratura) + un template fisso da catalogo.
+- Ogni prodotto e' CREDIBILE e COERENTE: titolo, descrizione, foto e file consegnato parlano della STESSA cosa (stesso soggetto, stesso formato, stessi dettagli). Niente foto generica o scollegata dal titolo.
+- Foto = il prodotto vero, intero e ben visibile, su SFONDO BIANCO pulito, stile foto da catalogo/e-commerce: nessuna scena, nessuna scrivania/pianta/tavolo, niente mockup con laptop, niente persone.
+- Prompt foto per prodotto (in `curati.json`, campo foto): `{aspetto}. Clean e-commerce catalog product photo, pure white background, soft studio light, photorealistic, whole item fully visible, centered, no text, no letters, no logo, no watermark`.
+- L'aspetto descrive il soggetto reale dall'annuncio (es. amigurumi orsacchiotto: colore, filato, dimensione, posa), nostro e mai copiato (no foto/firma altrui). Digitali: mostrare il PDF/foglio aperto su bianco; planner/tabelle con date o numeri: `render=True` in `foto_digitale.py`, mai Gemini.
+- Stessa foto IT/EN. Prima di dire "fatto" guardare anteprima.png: soggetto giusto + sfondo bianco, altrimenti rigenerare.
+- Procedura: voce in `curati.json` -> 1 prodotto PILOTA -> controllo foto -> solo dopo il resto del lotto.
