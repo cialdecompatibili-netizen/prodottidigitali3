@@ -1,4 +1,4 @@
-# Ultimo lotto (10/11/2026 23:00)
+# Ultimo lotto (11/11/2026 18:35)
 
-- schede-didattiche-scuola-infanzia-stampabili
-  - IT https://cialdecompatibili-netizen.github.io/prodottidigitali3/negozio/schede-didattiche-scuola-infanzia-stampabili/
+- schemi-uncinetto-colorato-in-pdf-stampabile-1538
+  - IT https://cialdecompatibili-netizen.github.io/prodottidigitali3/negozio/schemi-uncinetto-colorato-in-pdf-stampabile-1538/
