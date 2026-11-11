@@ -1,4 +1,4 @@
-# Ultimo lotto (11/11/2026 18:48)
+# Ultimo lotto (11/11/2026 18:49)
 
-- schema-uncinetto-gatto-a-pagnotta-amigurumi-a-bassa-cucitura-in-pdf
-  - IT https://cialdecompatibili-netizen.github.io/prodottidigitali3/negozio/schema-uncinetto-gatto-a-pagnotta-amigurumi-a-bassa-cucitura-in-pdf/
+- pacchetto-schemi-uncinetto-polpo-amigurumi-in-pdf
+  - IT https://cialdecompatibili-netizen.github.io/prodottidigitali3/negozio/pacchetto-schemi-uncinetto-polpo-amigurumi-in-pdf/
