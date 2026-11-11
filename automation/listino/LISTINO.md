@@ -106,7 +106,7 @@ Generato da `automation/listino/genera_md.py` da `grezzo.json`. Guida e step: `G
 | 98 | - | habit | 15 | Quaderno per la definizione degli obiettivi, pianificatore di obiettivi stampabile in PDF, | 4,95 EUR | [4556341055](https://www.etsy.com/it/listing/4556341055/quaderno-per-la-definizione-degli) |
 | 99 | - | bambini | 15 | Crea un'attività di conteggio a tema pizza, materiale stampabile di matematica per la scuo | 2,40 EUR | [4568446995](https://www.etsy.com/it/listing/4568446995/crea-unattivita-di-conteggio-a-tema) |
 | 100 | - | pasti | 15 | Pianificatore digitale dei pasti, preparazione dei pasti, modello di piano alimentare, Goo | 1,13 EUR | [1774202764](https://www.etsy.com/it/listing/1774202764/pianificatore-digitale-dei-pasti) |
-| 101 | fatto | uncinetto | 15 | Schema per realizzare un orsacchiotto all'uncinetto: Amigurumi (modello in PDF in inglese) | 6,85 EUR | [1871649891](https://www.etsy.com/it/listing/1871649891/schema-alluncinetto-per-orsacchiotto) |
+| 101 | - | uncinetto | 15 | Schema per realizzare un orsacchiotto all'uncinetto: Amigurumi (modello in PDF in inglese) | 6,85 EUR | [1871649891](https://www.etsy.com/it/listing/1871649891/schema-alluncinetto-per-orsacchiotto) |
 | 102 | - | cv | 15 | Modello di curriculum Word, Google Docs, curriculum professionale, modello di CV, curricul | 6,16 EUR | [1232673873](https://www.etsy.com/it/listing/1232673873/modello-di-curriculum-word-google-docs) |
 
 ## Scartati (fisici / non digitali / doppioni non mostrati)

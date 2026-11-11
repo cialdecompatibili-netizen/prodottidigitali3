@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 UN SOLO COMANDO per un nuovo prodotto digitale: python automation\nuovo_prodotto.py <id> [--no-push]
 Legge automation/prodotti/<id>.json (vedi automation/prodotti/_esempio.json) e fa TUTTO:
@@ -31,7 +31,7 @@ def main(pid, push=True):
     # voce catalogo (non tocca l'immagine: la mette foto_digitale)
     e = [x for x in c['prodotti'] if x['id'] == pid]
     old = e[0] if e else {}
-    new = dict(tipo='digitale', id=pid, nome=it['nome'], categoria=cat['id'], prezzo_centesimi=s['prezzo_centesimi'], descrizione=it['descrizione'],
+    new = dict(tipo='digitale', id=pid, nome=it['nome'], categoria=cat['id'], prezzo_centesimi=199, descrizione=it['descrizione'],
                descrizione_completa=it['descrizione_completa'], immagine=old.get('immagine', 'assets/images/prodotti/%s.webp?v=0' % pid), icona=s.get('icona', cat.get('icona', '\U0001F4E6')),
                visibile=True, tr=dict(en=dict(nome=en['nome'], descrizione=en['descrizione'], descrizione_completa=en['descrizione_completa'],
                immagine=old.get('tr', {}).get('en', {}).get('immagine', 'assets/images/prodotti/%s-en.webp?v=0' % pid))))
