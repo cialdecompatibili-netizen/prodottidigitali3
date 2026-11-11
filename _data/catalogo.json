@@ -472,6 +472,26 @@
           "immagine": "assets/images/prodotti/schema-uncinetto-gamberetto-amigurumi-senza-cuciture-in-pdf-en.webp?v=1"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "schema-uncinetto-serpente-senza-cuciture-facile-per-principianti-in-pd",
+      "nome": "Schema uncinetto serpente senza cuciture facile per principianti in PDF",
+      "categoria": "uncinetto",
+      "prezzo_centesimi": 2000,
+      "descrizione": "Schema in PDF: serpente all'uncinetto senza cuciture, facile per chi inizia.",
+      "descrizione_completa": "Schema in PDF da scaricare subito: serpente all'uncinetto senza cuciture, facile per chi inizia. Istruzioni passo passo, chiare e complete.",
+      "immagine": "assets/images/prodotti/schema-uncinetto-serpente-senza-cuciture-facile-per-principianti-in-pd.webp?v=1",
+      "icona": "🧶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "No-Sew Crochet Snake Beginner-Friendly Pattern PDF",
+          "descrizione": "PDF pattern: no-sew crochet snake, easy for beginners.",
+          "descrizione_completa": "PDF pattern to download instantly: no-sew crochet snake, easy for beginners. Clear, complete step-by-step instructions.",
+          "immagine": "assets/images/prodotti/schema-uncinetto-serpente-senza-cuciture-facile-per-principianti-in-pd-en.webp?v=1"
+        }
+      }
     }
   ]
 }
