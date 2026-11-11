@@ -1,0 +1,29 @@
+{
+ "categoria": {
+  "id": "uncinetto",
+  "it": "Schemi uncinetto PDF",
+  "en": "Crochet patterns PDF",
+  "slug_en": "crochet-patterns",
+  "icona": "🧶"
+ },
+ "slug_en": "elegant-crochet-patterns-printable-pdf-6986",
+ "prezzo_centesimi": 2000,
+ "icona": "🧶",
+ "it": {
+  "nome": "Schemi uncinetto elegante in PDF stampabile",
+  "descrizione": "Schemi uncinetto: istruzioni passo passo adatte anche a chi inizia.",
+  "descrizione_completa": "Schemi uncinetto: istruzioni passo passo adatte anche a chi inizia. Si stampa a casa in formato A4 o A5. Scarichi subito i file."
+ },
+ "en": {
+  "nome": "Elegant Crochet Patterns Printable PDF",
+  "descrizione": "Crochet Patterns: step-by-step instructions suited to beginners.",
+  "descrizione_completa": "Crochet Patterns: step-by-step instructions suited to beginners. Print it at home on A4 or A5. Download your files instantly."
+ },
+ "foto": {
+  "cosa": "Elegant Crochet Patterns Printable PDF",
+  "originale": "flat lay product mockup of finished handmade crochet toys with yarn balls and a crochet hook on a pastel linen background, muted palette, soft shadow, no readable text, no letters, no logos",
+  "it": "",
+  "en": ""
+ },
+ "bozza": true
+}
