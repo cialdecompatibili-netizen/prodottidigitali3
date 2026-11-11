@@ -392,6 +392,26 @@
           "immagine": "assets/images/prodotti/schema-uncinetto-ghirlanda-scoiattolo-del-bosco-in-pdf-en.webp?v=1"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "schema-uncinetto-gatto-a-pagnotta-amigurumi-a-bassa-cucitura-in-pdf",
+      "nome": "Schema uncinetto gatto a pagnotta amigurumi a bassa cucitura in PDF",
+      "categoria": "uncinetto",
+      "prezzo_centesimi": 2000,
+      "descrizione": "Schema in PDF: gatto a forma di pagnotta, peluche all'uncinetto con poche cuciture.",
+      "descrizione_completa": "Schema in PDF da scaricare subito: gatto a forma di pagnotta, peluche all'uncinetto con poche cuciture. Istruzioni passo passo, chiare e complete.",
+      "immagine": "assets/images/prodotti/schema-uncinetto-gatto-a-pagnotta-amigurumi-a-bassa-cucitura-in-pdf.webp?v=1",
+      "icona": "🧶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Crochet Loaf Cat Amigurumi Low-Sew Pattern PDF",
+          "descrizione": "PDF pattern: cat shaped like a loaf of bread, crochet plush with very little sewing.",
+          "descrizione_completa": "PDF pattern to download instantly: cat shaped like a loaf of bread, crochet plush with very little sewing. Clear, complete step-by-step instructions.",
+          "immagine": "assets/images/prodotti/schema-uncinetto-gatto-a-pagnotta-amigurumi-a-bassa-cucitura-in-pdf-en.webp?v=1"
+        }
+      }
     }
   ]
 }

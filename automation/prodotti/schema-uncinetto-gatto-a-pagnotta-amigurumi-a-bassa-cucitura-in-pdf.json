@@ -1,0 +1,28 @@
+{
+ "categoria": {
+  "id": "uncinetto",
+  "it": "Schemi uncinetto PDF",
+  "en": "Crochet patterns PDF",
+  "slug_en": "crochet-patterns",
+  "icona": "🧶"
+ },
+ "slug_en": "crochet-loaf-cat-amigurumi-low-sew-pattern-pdf",
+ "prezzo_centesimi": 2000,
+ "icona": "🧶",
+ "it": {
+  "nome": "Schema uncinetto gatto a pagnotta amigurumi a bassa cucitura in PDF",
+  "descrizione": "Schema in PDF: gatto a forma di pagnotta, peluche all'uncinetto con poche cuciture.",
+  "descrizione_completa": "Schema in PDF da scaricare subito: gatto a forma di pagnotta, peluche all'uncinetto con poche cuciture. Istruzioni passo passo, chiare e complete."
+ },
+ "en": {
+  "nome": "Crochet Loaf Cat Amigurumi Low-Sew Pattern PDF",
+  "descrizione": "PDF pattern: cat shaped like a loaf of bread, crochet plush with very little sewing.",
+  "descrizione_completa": "PDF pattern to download instantly: cat shaped like a loaf of bread, crochet plush with very little sewing. Clear, complete step-by-step instructions."
+ },
+ "foto": {
+  "cosa": "Crochet Loaf Cat Amigurumi Low-Sew Pattern PDF",
+  "originale": "a finished crochet loaf-shaped cat plush, with a ball of yarn and a crochet hook, on a soft pastel background, soft natural shadow, bright airy palette, no readable text, no letters, no logos",
+  "it": "",
+  "en": ""
+ }
+}
