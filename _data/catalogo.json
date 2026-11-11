@@ -512,6 +512,46 @@
           "immagine": "assets/images/prodotti/schemi-uncinetto-elegante-in-pdf-stampabile-4218-en.webp?v=1"
         }
       }
+    },
+    {
+      "tipo": "digitale",
+      "id": "schemi-uncinetto-essenziale-in-pdf-stampabile-9891",
+      "nome": "Schemi uncinetto essenziale in PDF stampabile",
+      "categoria": "uncinetto",
+      "prezzo_centesimi": 2500,
+      "descrizione": "Schemi uncinetto: istruzioni passo passo adatte anche a chi inizia.",
+      "descrizione_completa": "Schemi uncinetto: istruzioni passo passo adatte anche a chi inizia. Si stampa a casa in formato A4 o A5. Scarichi subito i file.",
+      "immagine": "assets/images/prodotti/schemi-uncinetto-essenziale-in-pdf-stampabile-9891.webp?v=1",
+      "icona": "🧶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Minimal Crochet Patterns Printable PDF",
+          "descrizione": "Crochet Patterns: step-by-step instructions suited to beginners.",
+          "descrizione_completa": "Crochet Patterns: step-by-step instructions suited to beginners. Print it at home on A4 or A5. Download your files instantly.",
+          "immagine": "assets/images/prodotti/schemi-uncinetto-essenziale-in-pdf-stampabile-9891-en.webp?v=1"
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "schemi-uncinetto-elegante-in-pdf-stampabile-4161",
+      "nome": "Schemi uncinetto elegante in PDF stampabile",
+      "categoria": "uncinetto",
+      "prezzo_centesimi": 3000,
+      "descrizione": "Schemi uncinetto: istruzioni passo passo adatte anche a chi inizia.",
+      "descrizione_completa": "Schemi uncinetto: istruzioni passo passo adatte anche a chi inizia. Si stampa a casa in formato A4 o A5. Scarichi subito i file.",
+      "immagine": "assets/images/prodotti/schemi-uncinetto-elegante-in-pdf-stampabile-4161.webp?v=0",
+      "icona": "🧶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Elegant Crochet Patterns Printable PDF",
+          "descrizione": "Crochet Patterns: step-by-step instructions suited to beginners.",
+          "descrizione_completa": "Crochet Patterns: step-by-step instructions suited to beginners. Print it at home on A4 or A5. Download your files instantly.",
+          "immagine": "assets/images/prodotti/schemi-uncinetto-elegante-in-pdf-stampabile-4161-en.webp?v=0"
+        }
+      }
     }
   ]
 }
